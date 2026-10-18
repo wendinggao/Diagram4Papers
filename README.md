@@ -12,7 +12,7 @@ A skill for turning papers and code into compact, illustrated explanations.
 [![Output: draw.io + PNG](https://img.shields.io/badge/output-draw.io%20%2B%20PNG-5D8FB0?style=flat-square)](#examples)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-9274BE?style=flat-square)](#rebuild-the-examples)
 
-[Examples](#examples) · [Get started](#get-started) · [How it draws](#how-it-draws)
+[Get started](#get-started) · [How it draws](#how-it-draws) · [Examples](#examples)
 
 </div>
 
@@ -21,32 +21,6 @@ A skill for turning papers and code into compact, illustrated explanations.
 Diagram4Papers helps a coding agent decide **what a figure should explain and how to draw it**. It reads the method, follows a concrete example, and makes intermediate changes visible through diagrams, mappings, code excerpts and evidence. The result is an editable `.drawio` file with a native-rendered PNG.
 
 The default style is full and orderly: substantial illustrations, precise alignment, light panel backgrounds, coordinated accent colors, Comic Sans MS, and rounded dashed sections with a clear hierarchy. Layout follows the method. Supporting inputs can fit in a narrow strip while a difficult mechanism gets room to unfold.
-
-## Examples
-
-These figures were independently composed to explain published research. They illustrate the skill's visual approach; they are not copies of the papers' original figures or recorded system executions.
-
-### AutoGPS · Geometry reasoning
-
-From a geometry problem to multimodal formalization, symbolic validation, proof-graph expansion and a concise explanation.
-
-![Independently designed AutoGPS method diagram](examples/autogps.png)
-
-[Paper](https://arxiv.org/abs/2505.23381) · [Editable draw.io](examples/autogps.drawio) · [Full-size PNG](examples/autogps.png) · [Sources and design notes](examples/design-notes.md)
-
-The public 13–13–10 triangle provides a running example. The figure exposes premise bundles, atomic algebraic operations and the dependencies retained for the goal proof. The derivation is a checked teaching illustration.
-
-### Voyager · Embodied lifelong learning
-
-A chest-crafting example connects automatic curriculum, code revision, execution feedback, verification and skill memory.
-
-![Independently designed Voyager method diagram](examples/voyager.png)
-
-[Paper](https://arxiv.org/abs/2305.16291) · [Editable draw.io](examples/voyager.drawio) · [Full-size PNG](examples/voyager.png) · [Sources and design notes](examples/voyager-notes.md)
-
-An apricot, lavender and teal composition gives the code/environment interaction most of the area. The world, recipe and inventory changes are schematic; model responses and retrieved entries are illustrative. The program excerpt adapts public MIT-licensed code. Offline checks do not run Minecraft or an LLM.
-
-<sub>Icons in both examples: <a href="https://www.streamlinehq.com/">Free icons from Streamline</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Method credit belongs to the cited paper authors. See <a href="THIRD_PARTY_NOTICES.md">third-party notices</a> for sources and code attribution.</sub>
 
 ## Get started
 
@@ -91,6 +65,32 @@ You can also give it an existing `.drawio` file and describe a local change. Sta
 | Revision | Compares the native render with the reference at a common scale and revises the underlying design decision. |
 
 The bundled examples are visual anchors. New papers need their own content and composition. Their final appearance still depends on the agent's source understanding, asset choices and rendered-image review.
+
+## Examples
+
+These figures were independently composed to explain published research. They illustrate the skill's visual approach; they are not copies of the papers' original figures or recorded system executions.
+
+### AutoGPS · Geometry reasoning
+
+From a geometry problem to multimodal formalization, symbolic validation, proof-graph expansion and a concise explanation.
+
+![Independently designed AutoGPS method diagram](examples/autogps.png)
+
+[Paper](https://arxiv.org/abs/2505.23381) · [Editable draw.io](examples/autogps.drawio) · [Full-size PNG](examples/autogps.png) · [Sources and design notes](examples/design-notes.md)
+
+The public 13–13–10 triangle provides a running example. The figure exposes premise bundles, atomic algebraic operations and the dependencies retained for the goal proof. The derivation is a checked teaching illustration.
+
+### Voyager · Embodied lifelong learning
+
+A chest-crafting example connects automatic curriculum, code revision, execution feedback, verification and skill memory.
+
+![Independently designed Voyager method diagram](examples/voyager.png)
+
+[Paper](https://arxiv.org/abs/2305.16291) · [Editable draw.io](examples/voyager.drawio) · [Full-size PNG](examples/voyager.png) · [Sources and design notes](examples/voyager-notes.md)
+
+An apricot, lavender and teal composition gives the code/environment interaction most of the area. The world, recipe and inventory changes are schematic; model responses and retrieved entries are illustrative. The program excerpt adapts public MIT-licensed code. Offline checks do not run Minecraft or an LLM.
+
+<sub>Icons in both examples: <a href="https://www.streamlinehq.com/">Free icons from Streamline</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Method credit belongs to the cited paper authors. See <a href="THIRD_PARTY_NOTICES.md">third-party notices</a> for sources and code attribution.</sub>
 
 ## Rebuild the examples
 

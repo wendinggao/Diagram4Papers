@@ -12,7 +12,7 @@
 [![输出：draw.io + PNG](https://img.shields.io/badge/output-draw.io%20%2B%20PNG-5D8FB0?style=flat-square)](#示例)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-9274BE?style=flat-square)](#重建示例)
 
-[查看示例](#示例) · [开始使用](#开始使用) · [绘图方法](#绘图方法)
+[开始使用](#开始使用) · [绘图方法](#绘图方法) · [查看示例](#示例)
 
 </div>
 
@@ -21,32 +21,6 @@
 Diagram4Papers 帮助编程 Agent 判断**一张方法图该讲什么，以及如何把它画清楚**。它从论文和相关代码中梳理机制，用一个具体例子串联中间变化，再通过结构图、参数映射、代码片段和验证证据组织解释。最终交付可编辑的 `.drawio` 文件和原生导出的 PNG。
 
 默认画风饱满而有序：主体图形有足够的视觉分量，分区精确对齐，浅色背景与多彩细节协调搭配，使用 Comic Sans MS 和层级清楚的圆角虚线框。版面根据内容安排，辅助输入可以收成窄条，难以解释的机制则得到更大的展示空间。
-
-## 示例
-
-以下图片根据公开论文的方法独立设计，用于展示 Skill 的视觉思路。它们没有复刻论文原图，也不代表系统的真实运行记录。
-
-### AutoGPS · 几何推理
-
-从几何题面出发，展示多模态形式化、符号验证、证明图扩展和简洁解答的形成过程。
-
-![独立设计的 AutoGPS 方法图](examples/autogps.png)
-
-[原论文](https://arxiv.org/abs/2505.23381) · [可编辑 draw.io](examples/autogps.drawio) · [完整 PNG](examples/autogps.png) · [内容依据与设计说明](examples/design-notes.md)
-
-图中使用论文公开的 13–13–10 三角形作为贯穿示例，展开定理所需的前提、原子代数操作，以及目标证明需要保留的依赖。推导经过本地计算检查，属于教学性说明。
-
-### Voyager · 具身终身学习
-
-用“制作箱子”的任务，串联自动课程、代码修正、执行反馈、结果验证和技能记忆。
-
-![独立设计的 Voyager 方法图](examples/voyager.png)
-
-[原论文](https://arxiv.org/abs/2305.16291) · [可编辑 draw.io](examples/voyager.drawio) · [完整 PNG](examples/voyager.png) · [内容依据与设计说明](examples/voyager-notes.md)
-
-杏色、淡紫与青绿的布局将主要空间留给代码和环境之间的交互。场景、配方和库存变化为示意绘制，模型反馈与检索条目也属于说明性示例。代码片段改编自公开的 MIT 许可程序；离线检查没有运行 Minecraft 或调用大模型。
-
-<sub>两张示例的图标来自 <a href="https://www.streamlinehq.com/">Free icons from Streamline</a>，采用 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> 许可。方法归原论文作者所有；论文来源与代码署名见 <a href="THIRD_PARTY_NOTICES.md">第三方声明</a>。</sub>
 
 ## 开始使用
 
@@ -90,6 +64,32 @@ $diagram4papers
 | 渲染迭代 | 将实际渲染与参考图放在相近显示尺度下比较，修改影响观感的设计决定。 |
 
 随包示例提供视觉参照，新的论文仍需要重新组织内容和构图。最终效果取决于 Agent 对方法的理解、素材选择，以及对实际图片的检查与修改。
+
+## 示例
+
+以下图片根据公开论文的方法独立设计，用于展示 Skill 的视觉思路。它们没有复刻论文原图，也不代表系统的真实运行记录。
+
+### AutoGPS · 几何推理
+
+从几何题面出发，展示多模态形式化、符号验证、证明图扩展和简洁解答的形成过程。
+
+![独立设计的 AutoGPS 方法图](examples/autogps.png)
+
+[原论文](https://arxiv.org/abs/2505.23381) · [可编辑 draw.io](examples/autogps.drawio) · [完整 PNG](examples/autogps.png) · [内容依据与设计说明](examples/design-notes.md)
+
+图中使用论文公开的 13–13–10 三角形作为贯穿示例，展开定理所需的前提、原子代数操作，以及目标证明需要保留的依赖。推导经过本地计算检查，属于教学性说明。
+
+### Voyager · 具身终身学习
+
+用“制作箱子”的任务，串联自动课程、代码修正、执行反馈、结果验证和技能记忆。
+
+![独立设计的 Voyager 方法图](examples/voyager.png)
+
+[原论文](https://arxiv.org/abs/2305.16291) · [可编辑 draw.io](examples/voyager.drawio) · [完整 PNG](examples/voyager.png) · [内容依据与设计说明](examples/voyager-notes.md)
+
+杏色、淡紫与青绿的布局将主要空间留给代码和环境之间的交互。场景、配方和库存变化为示意绘制，模型反馈与检索条目也属于说明性示例。代码片段改编自公开的 MIT 许可程序；离线检查没有运行 Minecraft 或调用大模型。
+
+<sub>两张示例的图标来自 <a href="https://www.streamlinehq.com/">Free icons from Streamline</a>，采用 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> 许可。方法归原论文作者所有；论文来源与代码署名见 <a href="THIRD_PARTY_NOTICES.md">第三方声明</a>。</sub>
 
 ## 重建示例
 
