@@ -12,7 +12,7 @@ A skill for turning papers and code into compact, illustrated explanations.
 [![Output: draw.io + PNG](https://img.shields.io/badge/output-draw.io%20%2B%20PNG-5D8FB0?style=flat-square)](#examples)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-9274BE?style=flat-square)](#rebuild-the-examples)
 
-[Examples](#examples) · [Get started](#get-started) · [How it draws](#how-it-draws) · [Credits](#credits-and-license)
+[Examples](#examples) · [Get started](#get-started) · [How it draws](#how-it-draws)
 
 </div>
 
@@ -127,13 +127,3 @@ Run the release audit on an exported working tree without Git metadata. An optio
 | [assets/streamline/](assets/streamline/) | Licensed professional icons with a source ledger. |
 
 </details>
-
-## Credits and license
-
-**Contributor:** [wendinggao](https://github.com/wendinggao) · `wending.gao25@student.xjtlu.edu.cn`
-
-The skill's code is [MIT licensed](LICENSE). The AutoGPS and Voyager methods belong to their respective authors; each example links its scientific sources. The shortened Voyager program retains the [MineDojo Team MIT notice](references/voyager-code-license.txt).
-
-Bundled Streamline icons are licensed separately under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Retain **Free icons from Streamline**, a link to [Streamline](https://www.streamlinehq.com/), the license and any applicable modification notice when redistributing the artwork. The [asset ledger](assets/streamline/ledger.json) records exact files and sources. No font is distributed.
-
-Suggestions and example results are welcome through [Issues](https://github.com/wendinggao/Diagram4Papers/issues). If Diagram4Papers is useful in your work, a Star is appreciated.

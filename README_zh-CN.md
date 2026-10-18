@@ -12,7 +12,7 @@
 [![输出：draw.io + PNG](https://img.shields.io/badge/output-draw.io%20%2B%20PNG-5D8FB0?style=flat-square)](#示例)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-9274BE?style=flat-square)](#重建示例)
 
-[查看示例](#示例) · [开始使用](#开始使用) · [绘图方法](#绘图方法) · [署名与许可](#署名与许可)
+[查看示例](#示例) · [开始使用](#开始使用) · [绘图方法](#绘图方法)
 
 </div>
 
@@ -126,13 +126,3 @@ node tests/test_voyager_program.js
 | [assets/streamline/](assets/streamline/) | 具有来源记录的专业图标素材。 |
 
 </details>
-
-## 署名与许可
-
-**贡献者：**[wendinggao](https://github.com/wendinggao) · `wending.gao25@student.xjtlu.edu.cn`
-
-Skill 代码采用 [MIT 许可](LICENSE)。AutoGPS 和 Voyager 方法归各自的论文作者所有，每张示例都提供科学内容来源。缩写改编的 Voyager 程序保留了 [MineDojo Team 的 MIT 声明](references/voyager-code-license.txt)。
-
-随包 Streamline 图标单独采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可。再次分发图标时，请保留 **Free icons from Streamline**、[Streamline 链接](https://www.streamlinehq.com/)、许可链接，以及适用的修改说明。[素材清单](assets/streamline/ledger.json)记录了具体文件与来源。仓库不包含字体文件。
-
-欢迎通过 [Issues](https://github.com/wendinggao/Diagram4Papers/issues) 提出建议或分享绘图结果。如果 Diagram4Papers 对你有帮助，欢迎点个 Star。
