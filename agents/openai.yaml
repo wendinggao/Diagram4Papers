@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diagram4Papers"
+  short_description: "Dense, editable research figures with native visual QA"
+  default_prompt: "Use $diagram4papers to design an evidence-grounded paper figure and deliver editable draw.io plus an independent PNG."

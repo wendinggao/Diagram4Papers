@@ -1,0 +1,76 @@
+{
+  "font": "Comic Sans MS",
+  "outer": {
+    "stroke": 2.7,
+    "dash": "5 3",
+    "radius": 12
+  },
+  "section": {
+    "stroke": 1.6,
+    "dash": "4 3",
+    "radius": 9
+  },
+  "local": {
+    "stroke": 1.3,
+    "dash": "3 2",
+    "radius": 7
+  },
+  "cell": {
+    "stroke": 1.45,
+    "emphasized_stroke": 1.65,
+    "radius": 7
+  },
+  "heading_radius": 8,
+  "families": {
+    "blue": {
+      "ground": "#F0F8FF",
+      "band": "#CAE6F6",
+      "outer": "#348FB8",
+      "section": "#85AABD",
+      "local": "#B0C5D0"
+    },
+    "rose": {
+      "ground": "#FFF3F8",
+      "band": "#F4CEDF",
+      "outer": "#CF719B",
+      "section": "#BB92A9",
+      "local": "#CBB5C4"
+    },
+    "green": {
+      "ground": "#F5FBF0",
+      "band": "#D9EBCB",
+      "outer": "#77995C",
+      "section": "#96AE83",
+      "local": "#B3C5A5"
+    },
+    "apricot": {
+      "ground": "#FFF8EF",
+      "band": "#F7D6AE",
+      "outer": "#C98D4C",
+      "section": "#BDA17D",
+      "local": "#D4BFA5"
+    },
+    "lavender": {
+      "ground": "#F8F5FF",
+      "band": "#DFD2F3",
+      "outer": "#9274BE",
+      "section": "#B29ACF",
+      "local": "#CEC0DF"
+    },
+    "teal": {
+      "ground": "#F1FAF7",
+      "band": "#C8E8DD",
+      "outer": "#529E94",
+      "section": "#8DB5A6",
+      "local": "#B4CFC4"
+    }
+  },
+  "accents": {
+    "blue": "#DDEFFC",
+    "violet": "#E9E1F7",
+    "amber": "#FFF0C5",
+    "cyan": "#DFF1EF",
+    "rose": "#F5CDDE",
+    "verified": "#D6EBC1"
+  }
+}

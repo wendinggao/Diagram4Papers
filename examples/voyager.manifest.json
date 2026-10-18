@@ -1,0 +1,2814 @@
+{
+  "canvas": [
+    2160,
+    1180
+  ],
+  "objects": [
+    {
+      "id": "page",
+      "role": "background",
+      "box": [
+        0,
+        0,
+        2160,
+        1180
+      ]
+    },
+    {
+      "id": "curriculum",
+      "role": "container",
+      "box": [
+        14,
+        14,
+        2132,
+        254
+      ]
+    },
+    {
+      "id": "curriculum-icon",
+      "role": "icon",
+      "box": [
+        26,
+        24,
+        70,
+        70
+      ],
+      "origin": "external",
+      "asset_id": "curriculum",
+      "sha256": "022e493799770289c5e268ed15aacd5525472db164271b3b282214cf27ecd9eb"
+    },
+    {
+      "id": "curriculum-ribbon",
+      "role": "container",
+      "box": [
+        105,
+        27,
+        548,
+        59
+      ]
+    },
+    {
+      "id": "curriculum-title",
+      "role": "text",
+      "box": [
+        117,
+        26,
+        2014,
+        60
+      ]
+    },
+    {
+      "id": "practice",
+      "role": "container",
+      "box": [
+        14,
+        284,
+        1410,
+        882
+      ]
+    },
+    {
+      "id": "practice-icon",
+      "role": "icon",
+      "box": [
+        26,
+        294,
+        70,
+        70
+      ],
+      "origin": "external",
+      "asset_id": "code-window",
+      "sha256": "4e3299381971a6377925843cfa0836ef149e43c5f716b955fe5bb1a190ceb5c7"
+    },
+    {
+      "id": "practice-ribbon",
+      "role": "container",
+      "box": [
+        105,
+        297,
+        481,
+        59
+      ]
+    },
+    {
+      "id": "practice-title",
+      "role": "text",
+      "box": [
+        117,
+        296,
+        1292,
+        60
+      ]
+    },
+    {
+      "id": "memory",
+      "role": "container",
+      "box": [
+        1440,
+        284,
+        706,
+        882
+      ]
+    },
+    {
+      "id": "memory-icon",
+      "role": "icon",
+      "box": [
+        1452,
+        294,
+        70,
+        70
+      ],
+      "origin": "external",
+      "asset_id": "memory",
+      "sha256": "7eaf7bfceffd43663ccf0afe76932212e35e5a49fc4aa3c1362960435938f832"
+    },
+    {
+      "id": "memory-ribbon",
+      "role": "container",
+      "box": [
+        1531,
+        297,
+        587,
+        59
+      ]
+    },
+    {
+      "id": "memory-title",
+      "role": "text",
+      "box": [
+        1543,
+        296,
+        588,
+        60
+      ]
+    },
+    {
+      "id": "learning-loop-icon0",
+      "role": "icon",
+      "box": [
+        698,
+        305,
+        46,
+        46
+      ],
+      "origin": "external",
+      "asset_id": "robot",
+      "sha256": "d157dd795c21fd455841ee42bffe1fb63c23548ce504305d70f416ceac7a05c5"
+    },
+    {
+      "id": "learning-loop-label0",
+      "role": "text",
+      "box": [
+        755,
+        310,
+        107,
+        39
+      ]
+    },
+    {
+      "id": "learning-loop-forward0",
+      "role": "flow",
+      "points": [
+        [
+          862,
+          329
+        ],
+        [
+          896,
+          329
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "learning-loop-icon1",
+      "role": "icon",
+      "box": [
+        916,
+        305,
+        46,
+        46
+      ],
+      "origin": "external",
+      "asset_id": "cube",
+      "sha256": "5af896e61085b5e102cb114145d3c0e322e6ebdf17522111405f62aebf53b2bf"
+    },
+    {
+      "id": "learning-loop-label1",
+      "role": "text",
+      "box": [
+        973,
+        310,
+        107,
+        39
+      ]
+    },
+    {
+      "id": "learning-loop-forward1",
+      "role": "flow",
+      "points": [
+        [
+          1080,
+          329
+        ],
+        [
+          1114,
+          329
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "learning-loop-icon2",
+      "role": "icon",
+      "box": [
+        1114,
+        305,
+        46,
+        46
+      ],
+      "origin": "external",
+      "asset_id": "check",
+      "sha256": "8799b1d1d05928551d072e5b1c643ef02b40049b44098aa598671caf725f3d8e"
+    },
+    {
+      "id": "learning-loop-label2",
+      "role": "text",
+      "box": [
+        1171,
+        310,
+        107,
+        39
+      ]
+    },
+    {
+      "id": "learning-loop-return",
+      "role": "flow",
+      "points": [
+        [
+          1282,
+          329
+        ],
+        [
+          1300,
+          329
+        ],
+        [
+          1300,
+          358
+        ],
+        [
+          720,
+          358
+        ],
+        [
+          720,
+          353
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "learning-loop-return-label",
+      "role": "container",
+      "box": [
+        911,
+        345,
+        220,
+        26
+      ]
+    },
+    {
+      "id": "learning-loop-return-text",
+      "role": "text",
+      "box": [
+        918,
+        345,
+        206,
+        26
+      ]
+    },
+    {
+      "id": "frontier-heading",
+      "role": "text",
+      "box": [
+        723,
+        25,
+        310,
+        52
+      ]
+    },
+    {
+      "id": "frontier-icon0",
+      "role": "icon",
+      "box": [
+        1063,
+        27,
+        49,
+        49
+      ],
+      "origin": "external",
+      "asset_id": "globe",
+      "sha256": "98c8fdb64afff52fb829ab5c4956cad8a64343ea60531071c1dd40853ae410bb"
+    },
+    {
+      "id": "frontier-label0",
+      "role": "container",
+      "box": [
+        1122,
+        29,
+        254,
+        46
+      ]
+    },
+    {
+      "id": "frontier-label0-text",
+      "role": "text",
+      "box": [
+        1128,
+        30,
+        242,
+        44
+      ]
+    },
+    {
+      "id": "frontier-arrow0",
+      "role": "flow",
+      "points": [
+        [
+          1386,
+          52
+        ],
+        [
+          1415,
+          52
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "frontier-icon1",
+      "role": "icon",
+      "box": [
+        1432,
+        27,
+        49,
+        49
+      ],
+      "origin": "external",
+      "asset_id": "cube",
+      "sha256": "5af896e61085b5e102cb114145d3c0e322e6ebdf17522111405f62aebf53b2bf"
+    },
+    {
+      "id": "frontier-label1",
+      "role": "container",
+      "box": [
+        1491,
+        29,
+        254,
+        46
+      ]
+    },
+    {
+      "id": "frontier-label1-text",
+      "role": "text",
+      "box": [
+        1497,
+        30,
+        242,
+        44
+      ]
+    },
+    {
+      "id": "frontier-arrow1",
+      "role": "flow",
+      "points": [
+        [
+          1755,
+          52
+        ],
+        [
+          1784,
+          52
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "frontier-icon2",
+      "role": "icon",
+      "box": [
+        1799,
+        27,
+        49,
+        49
+      ],
+      "origin": "external",
+      "asset_id": "chest",
+      "sha256": "dbd8f69ae2195fe57b071ef232174e2846aa2e3fd85dcf4bff8aecfe88fb66ca"
+    },
+    {
+      "id": "frontier-label2",
+      "role": "container",
+      "box": [
+        1858,
+        29,
+        254,
+        46
+      ]
+    },
+    {
+      "id": "frontier-label2-text",
+      "role": "text",
+      "box": [
+        1864,
+        30,
+        242,
+        44
+      ]
+    },
+    {
+      "id": "world",
+      "role": "container",
+      "box": [
+        30,
+        105,
+        620,
+        147
+      ]
+    },
+    {
+      "id": "world-icon",
+      "role": "icon",
+      "box": [
+        40,
+        113,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "globe",
+      "sha256": "98c8fdb64afff52fb829ab5c4956cad8a64343ea60531071c1dd40853ae410bb"
+    },
+    {
+      "id": "world-title",
+      "role": "text",
+      "box": [
+        92,
+        111,
+        548,
+        42
+      ]
+    },
+    {
+      "id": "ground-0-0-left",
+      "role": "geometry",
+      "box": [
+        62.5,
+        205,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-0-0-right",
+      "role": "geometry",
+      "box": [
+        82,
+        205,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-0-0-top",
+      "role": "geometry",
+      "box": [
+        62.5,
+        195.25,
+        39.0,
+        19.5
+      ]
+    },
+    {
+      "id": "ground-0-1-left",
+      "role": "geometry",
+      "box": [
+        101.5,
+        200,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-0-1-right",
+      "role": "geometry",
+      "box": [
+        121,
+        200,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-0-1-top",
+      "role": "geometry",
+      "box": [
+        101.5,
+        190.25,
+        39.0,
+        19.5
+      ]
+    },
+    {
+      "id": "ground-0-2-left",
+      "role": "geometry",
+      "box": [
+        140.5,
+        195,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-0-2-right",
+      "role": "geometry",
+      "box": [
+        160,
+        195,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-0-2-top",
+      "role": "geometry",
+      "box": [
+        140.5,
+        185.25,
+        39.0,
+        19.5
+      ]
+    },
+    {
+      "id": "ground-1-0-left",
+      "role": "geometry",
+      "box": [
+        82.5,
+        224,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-1-0-right",
+      "role": "geometry",
+      "box": [
+        102,
+        224,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-1-0-top",
+      "role": "geometry",
+      "box": [
+        82.5,
+        214.25,
+        39.0,
+        19.5
+      ]
+    },
+    {
+      "id": "ground-1-1-left",
+      "role": "geometry",
+      "box": [
+        121.5,
+        219,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-1-1-right",
+      "role": "geometry",
+      "box": [
+        141,
+        219,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-1-1-top",
+      "role": "geometry",
+      "box": [
+        121.5,
+        209.25,
+        39.0,
+        19.5
+      ]
+    },
+    {
+      "id": "ground-1-2-left",
+      "role": "geometry",
+      "box": [
+        160.5,
+        214,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-1-2-right",
+      "role": "geometry",
+      "box": [
+        180,
+        214,
+        19.5,
+        27.75
+      ]
+    },
+    {
+      "id": "ground-1-2-top",
+      "role": "geometry",
+      "box": [
+        160.5,
+        204.25,
+        39.0,
+        19.5
+      ]
+    },
+    {
+      "id": "tree-trunk-left",
+      "role": "geometry",
+      "box": [
+        109.5,
+        184,
+        11.5,
+        39.75
+      ]
+    },
+    {
+      "id": "tree-trunk-right",
+      "role": "geometry",
+      "box": [
+        121,
+        184,
+        11.5,
+        39.75
+      ]
+    },
+    {
+      "id": "tree-trunk-top",
+      "role": "geometry",
+      "box": [
+        109.5,
+        178.25,
+        23.0,
+        11.5
+      ]
+    },
+    {
+      "id": "tree-crown-left",
+      "role": "geometry",
+      "box": [
+        88.5,
+        166,
+        32.5,
+        44.25
+      ]
+    },
+    {
+      "id": "tree-crown-right",
+      "role": "geometry",
+      "box": [
+        121,
+        166,
+        32.5,
+        44.25
+      ]
+    },
+    {
+      "id": "tree-crown-top",
+      "role": "geometry",
+      "box": [
+        88.5,
+        149.75,
+        65.0,
+        32.5
+      ]
+    },
+    {
+      "id": "crafting-block-left",
+      "role": "geometry",
+      "box": [
+        172.0,
+        209,
+        20.0,
+        35.0
+      ]
+    },
+    {
+      "id": "crafting-block-right",
+      "role": "geometry",
+      "box": [
+        192,
+        209,
+        20.0,
+        35.0
+      ]
+    },
+    {
+      "id": "crafting-block-top",
+      "role": "geometry",
+      "box": [
+        172.0,
+        199.0,
+        40.0,
+        20.0
+      ]
+    },
+    {
+      "id": "biome",
+      "role": "text",
+      "box": [
+        252,
+        149,
+        380,
+        36
+      ]
+    },
+    {
+      "id": "inventory-start",
+      "role": "text",
+      "box": [
+        252,
+        186,
+        380,
+        33
+      ]
+    },
+    {
+      "id": "table-state",
+      "role": "text",
+      "box": [
+        252,
+        217,
+        380,
+        29
+      ]
+    },
+    {
+      "id": "progress",
+      "role": "container",
+      "box": [
+        664,
+        105,
+        400,
+        147
+      ]
+    },
+    {
+      "id": "progress-icon",
+      "role": "icon",
+      "box": [
+        674,
+        113,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "clipboard",
+      "sha256": "d2d0b77e574c897eea1ce47968d8b795a4f20ba43e3c9300f72b2aba68b031e0"
+    },
+    {
+      "id": "progress-title",
+      "role": "text",
+      "box": [
+        726,
+        111,
+        328,
+        42
+      ]
+    },
+    {
+      "id": "past-wood",
+      "role": "text",
+      "box": [
+        684,
+        158,
+        360,
+        34
+      ]
+    },
+    {
+      "id": "past-planks",
+      "role": "text",
+      "box": [
+        684,
+        197,
+        360,
+        34
+      ]
+    },
+    {
+      "id": "next-task",
+      "role": "container",
+      "box": [
+        1078,
+        105,
+        500,
+        147
+      ]
+    },
+    {
+      "id": "next-task-icon",
+      "role": "icon",
+      "box": [
+        1088,
+        113,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "brain",
+      "sha256": "47bf53bc28d51638104db2b290b43832aac33c08d37859f96abe31fcbcf737d4"
+    },
+    {
+      "id": "next-task-title",
+      "role": "text",
+      "box": [
+        1140,
+        111,
+        428,
+        42
+      ]
+    },
+    {
+      "id": "task-flag",
+      "role": "icon",
+      "box": [
+        1090,
+        168,
+        58,
+        58
+      ],
+      "origin": "external",
+      "asset_id": "trophy",
+      "sha256": "0b6b2a656a452f5f6372538925fe79968af4cf4013beb97ea55366ba59eeb4dd"
+    },
+    {
+      "id": "new-task",
+      "role": "text",
+      "box": [
+        1161,
+        161,
+        398,
+        48
+      ]
+    },
+    {
+      "id": "task-principle",
+      "role": "text",
+      "box": [
+        1161,
+        211,
+        398,
+        31
+      ]
+    },
+    {
+      "id": "additional-context",
+      "role": "container",
+      "box": [
+        1592,
+        105,
+        538,
+        147
+      ]
+    },
+    {
+      "id": "additional-context-icon",
+      "role": "icon",
+      "box": [
+        1602,
+        113,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "question",
+      "sha256": "43c2b2cc58fef670dd1b8910e4ba45dc4ec68584de33501b027d87bdfdc91841"
+    },
+    {
+      "id": "additional-context-title",
+      "role": "text",
+      "box": [
+        1654,
+        111,
+        466,
+        42
+      ]
+    },
+    {
+      "id": "context-q",
+      "role": "text",
+      "box": [
+        1608,
+        158,
+        505,
+        38
+      ]
+    },
+    {
+      "id": "context-a",
+      "role": "text",
+      "box": [
+        1608,
+        203,
+        505,
+        38
+      ]
+    },
+    {
+      "id": "prompt-context",
+      "role": "container",
+      "box": [
+        30,
+        374,
+        1378,
+        75
+      ]
+    },
+    {
+      "id": "prompt-tools",
+      "role": "icon",
+      "box": [
+        42,
+        385,
+        52,
+        52
+      ],
+      "origin": "external",
+      "asset_id": "tools",
+      "sha256": "5b1f0fbfc14146cad400ec09af5bcde6834b63895332ba4b8f3b655876525c20"
+    },
+    {
+      "id": "prompt-inputs",
+      "role": "text",
+      "box": [
+        108,
+        381,
+        560,
+        35
+      ]
+    },
+    {
+      "id": "prompt-input-details",
+      "role": "text",
+      "box": [
+        108,
+        417,
+        560,
+        27
+      ]
+    },
+    {
+      "id": "prompt-library",
+      "role": "icon",
+      "box": [
+        740,
+        385,
+        53,
+        53
+      ],
+      "origin": "external",
+      "asset_id": "theorems",
+      "sha256": "759da9ada832cf77b2f4d5e9e6cbc443ecf0d9c1a8420570ea7b58ef2b33cf10"
+    },
+    {
+      "id": "retrieved-context",
+      "role": "text",
+      "box": [
+        808,
+        384,
+        475,
+        34
+      ]
+    },
+    {
+      "id": "retrieved-context-detail",
+      "role": "text",
+      "box": [
+        808,
+        419,
+        475,
+        27
+      ]
+    },
+    {
+      "id": "memory-context-read",
+      "role": "flow",
+      "points": [
+        [
+          1453,
+          412
+        ],
+        [
+          1409,
+          412
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "program",
+      "role": "container",
+      "box": [
+        30,
+        463,
+        650,
+        367
+      ]
+    },
+    {
+      "id": "program-icon",
+      "role": "icon",
+      "box": [
+        40,
+        471,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "robot",
+      "sha256": "d157dd795c21fd455841ee42bffe1fb63c23548ce504305d70f416ceac7a05c5"
+    },
+    {
+      "id": "program-title",
+      "role": "text",
+      "box": [
+        92,
+        469,
+        578,
+        42
+      ]
+    },
+    {
+      "id": "initial-tag",
+      "role": "container",
+      "box": [
+        46,
+        518,
+        194,
+        31
+      ]
+    },
+    {
+      "id": "initial-tag-text",
+      "role": "text",
+      "box": [
+        52,
+        519,
+        182,
+        29
+      ]
+    },
+    {
+      "id": "initial-program",
+      "role": "text",
+      "box": [
+        46,
+        555,
+        616,
+        37
+      ]
+    },
+    {
+      "id": "code-separator",
+      "role": "relation",
+      "points": [
+        [
+          46,
+          600
+        ],
+        [
+          664,
+          600
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "revised-tag",
+      "role": "container",
+      "box": [
+        46,
+        611,
+        194,
+        31
+      ]
+    },
+    {
+      "id": "revised-tag-text",
+      "role": "text",
+      "box": [
+        52,
+        612,
+        182,
+        29
+      ]
+    },
+    {
+      "id": "program-line0",
+      "role": "text",
+      "box": [
+        46,
+        650,
+        616,
+        32
+      ]
+    },
+    {
+      "id": "program-line1",
+      "role": "text",
+      "box": [
+        46,
+        681,
+        616,
+        32
+      ]
+    },
+    {
+      "id": "program-line2",
+      "role": "text",
+      "box": [
+        46,
+        712,
+        616,
+        32
+      ]
+    },
+    {
+      "id": "program-line3",
+      "role": "text",
+      "box": [
+        46,
+        743,
+        616,
+        32
+      ]
+    },
+    {
+      "id": "program-line4",
+      "role": "text",
+      "box": [
+        46,
+        774,
+        616,
+        32
+      ]
+    },
+    {
+      "id": "environment",
+      "role": "container",
+      "box": [
+        694,
+        463,
+        714,
+        367
+      ]
+    },
+    {
+      "id": "environment-icon",
+      "role": "icon",
+      "box": [
+        704,
+        471,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "cube",
+      "sha256": "5af896e61085b5e102cb114145d3c0e322e6ebdf17522111405f62aebf53b2bf"
+    },
+    {
+      "id": "environment-title",
+      "role": "text",
+      "box": [
+        756,
+        469,
+        642,
+        42
+      ]
+    },
+    {
+      "id": "after-revision-tag",
+      "role": "container",
+      "box": [
+        1207,
+        477,
+        185,
+        31
+      ]
+    },
+    {
+      "id": "after-revision-tag-text",
+      "role": "text",
+      "box": [
+        1213,
+        478,
+        173,
+        29
+      ]
+    },
+    {
+      "id": "recipe-label",
+      "role": "text",
+      "box": [
+        711,
+        514,
+        213,
+        36
+      ]
+    },
+    {
+      "id": "recipe-cell-0-0",
+      "role": "container",
+      "box": [
+        711,
+        556,
+        51,
+        51
+      ]
+    },
+    {
+      "id": "plank-0-0",
+      "role": "geometry",
+      "box": [
+        718,
+        564,
+        37,
+        35
+      ]
+    },
+    {
+      "id": "grain-0-0-0",
+      "role": "relation",
+      "points": [
+        [
+          720,
+          575
+        ],
+        [
+          753,
+          575
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "grain-0-0-1",
+      "role": "relation",
+      "points": [
+        [
+          720,
+          585
+        ],
+        [
+          753,
+          585
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "recipe-cell-0-1",
+      "role": "container",
+      "box": [
+        769,
+        556,
+        51,
+        51
+      ]
+    },
+    {
+      "id": "plank-0-1",
+      "role": "geometry",
+      "box": [
+        776,
+        564,
+        37,
+        35
+      ]
+    },
+    {
+      "id": "grain-0-1-0",
+      "role": "relation",
+      "points": [
+        [
+          778,
+          575
+        ],
+        [
+          811,
+          575
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "grain-0-1-1",
+      "role": "relation",
+      "points": [
+        [
+          778,
+          585
+        ],
+        [
+          811,
+          585
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "recipe-cell-0-2",
+      "role": "container",
+      "box": [
+        827,
+        556,
+        51,
+        51
+      ]
+    },
+    {
+      "id": "plank-0-2",
+      "role": "geometry",
+      "box": [
+        834,
+        564,
+        37,
+        35
+      ]
+    },
+    {
+      "id": "grain-0-2-0",
+      "role": "relation",
+      "points": [
+        [
+          836,
+          575
+        ],
+        [
+          869,
+          575
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "grain-0-2-1",
+      "role": "relation",
+      "points": [
+        [
+          836,
+          585
+        ],
+        [
+          869,
+          585
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "recipe-cell-1-0",
+      "role": "container",
+      "box": [
+        711,
+        614,
+        51,
+        51
+      ]
+    },
+    {
+      "id": "plank-1-0",
+      "role": "geometry",
+      "box": [
+        718,
+        622,
+        37,
+        35
+      ]
+    },
+    {
+      "id": "grain-1-0-0",
+      "role": "relation",
+      "points": [
+        [
+          720,
+          633
+        ],
+        [
+          753,
+          633
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "grain-1-0-1",
+      "role": "relation",
+      "points": [
+        [
+          720,
+          643
+        ],
+        [
+          753,
+          643
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "recipe-cell-1-1",
+      "role": "container",
+      "box": [
+        769,
+        614,
+        51,
+        51
+      ]
+    },
+    {
+      "id": "recipe-cell-1-2",
+      "role": "container",
+      "box": [
+        827,
+        614,
+        51,
+        51
+      ]
+    },
+    {
+      "id": "plank-1-2",
+      "role": "geometry",
+      "box": [
+        834,
+        622,
+        37,
+        35
+      ]
+    },
+    {
+      "id": "grain-1-2-0",
+      "role": "relation",
+      "points": [
+        [
+          836,
+          633
+        ],
+        [
+          869,
+          633
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "grain-1-2-1",
+      "role": "relation",
+      "points": [
+        [
+          836,
+          643
+        ],
+        [
+          869,
+          643
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "recipe-cell-2-0",
+      "role": "container",
+      "box": [
+        711,
+        672,
+        51,
+        51
+      ]
+    },
+    {
+      "id": "plank-2-0",
+      "role": "geometry",
+      "box": [
+        718,
+        680,
+        37,
+        35
+      ]
+    },
+    {
+      "id": "grain-2-0-0",
+      "role": "relation",
+      "points": [
+        [
+          720,
+          691
+        ],
+        [
+          753,
+          691
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "grain-2-0-1",
+      "role": "relation",
+      "points": [
+        [
+          720,
+          701
+        ],
+        [
+          753,
+          701
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "recipe-cell-2-1",
+      "role": "container",
+      "box": [
+        769,
+        672,
+        51,
+        51
+      ]
+    },
+    {
+      "id": "plank-2-1",
+      "role": "geometry",
+      "box": [
+        776,
+        680,
+        37,
+        35
+      ]
+    },
+    {
+      "id": "grain-2-1-0",
+      "role": "relation",
+      "points": [
+        [
+          778,
+          691
+        ],
+        [
+          811,
+          691
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "grain-2-1-1",
+      "role": "relation",
+      "points": [
+        [
+          778,
+          701
+        ],
+        [
+          811,
+          701
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "recipe-cell-2-2",
+      "role": "container",
+      "box": [
+        827,
+        672,
+        51,
+        51
+      ]
+    },
+    {
+      "id": "plank-2-2",
+      "role": "geometry",
+      "box": [
+        834,
+        680,
+        37,
+        35
+      ]
+    },
+    {
+      "id": "grain-2-2-0",
+      "role": "relation",
+      "points": [
+        [
+          836,
+          691
+        ],
+        [
+          869,
+          691
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "grain-2-2-1",
+      "role": "relation",
+      "points": [
+        [
+          836,
+          701
+        ],
+        [
+          869,
+          701
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "recipe-amount",
+      "role": "text",
+      "box": [
+        714,
+        738,
+        165,
+        34
+      ]
+    },
+    {
+      "id": "recipe-output",
+      "role": "flow",
+      "points": [
+        [
+          895,
+          638
+        ],
+        [
+          950,
+          638
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "crafted-chest",
+      "role": "icon",
+      "box": [
+        969,
+        568,
+        135,
+        135
+      ],
+      "origin": "external",
+      "asset_id": "chest",
+      "sha256": "dbd8f69ae2195fe57b071ef232174e2846aa2e3fd85dcf4bff8aecfe88fb66ca"
+    },
+    {
+      "id": "chest-output",
+      "role": "container",
+      "box": [
+        966,
+        726,
+        145,
+        48
+      ]
+    },
+    {
+      "id": "chest-output-text",
+      "role": "text",
+      "box": [
+        972,
+        727,
+        133,
+        46
+      ]
+    },
+    {
+      "id": "environment-separator",
+      "role": "relation",
+      "points": [
+        [
+          1131,
+          519
+        ],
+        [
+          1131,
+          807
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "inventory-title",
+      "role": "text",
+      "box": [
+        1150,
+        514,
+        240,
+        38
+      ]
+    },
+    {
+      "id": "planks-state-icon",
+      "role": "icon",
+      "box": [
+        1153,
+        566,
+        39,
+        39
+      ],
+      "origin": "external",
+      "asset_id": "cube",
+      "sha256": "5af896e61085b5e102cb114145d3c0e322e6ebdf17522111405f62aebf53b2bf"
+    },
+    {
+      "id": "planks-state-label",
+      "role": "text",
+      "box": [
+        1204,
+        567,
+        183,
+        35
+      ]
+    },
+    {
+      "id": "planks-state",
+      "role": "container",
+      "box": [
+        1150,
+        613,
+        238,
+        45
+      ]
+    },
+    {
+      "id": "planks-state-text",
+      "role": "text",
+      "box": [
+        1156,
+        614,
+        226,
+        43
+      ]
+    },
+    {
+      "id": "log-conversion",
+      "role": "text",
+      "box": [
+        1150,
+        667,
+        238,
+        34
+      ]
+    },
+    {
+      "id": "chest-state-icon",
+      "role": "icon",
+      "box": [
+        1153,
+        724,
+        39,
+        39
+      ],
+      "origin": "external",
+      "asset_id": "check",
+      "sha256": "8799b1d1d05928551d072e5b1c643ef02b40049b44098aa598671caf725f3d8e"
+    },
+    {
+      "id": "chests-state-label",
+      "role": "text",
+      "box": [
+        1204,
+        725,
+        183,
+        35
+      ]
+    },
+    {
+      "id": "chests-state",
+      "role": "container",
+      "box": [
+        1150,
+        769,
+        238,
+        43
+      ]
+    },
+    {
+      "id": "chests-state-text",
+      "role": "text",
+      "box": [
+        1156,
+        770,
+        226,
+        41
+      ]
+    },
+    {
+      "id": "feedback-env",
+      "role": "container",
+      "box": [
+        30,
+        844,
+        450,
+        182
+      ]
+    },
+    {
+      "id": "feedback-env-icon",
+      "role": "icon",
+      "box": [
+        42,
+        856,
+        50,
+        50
+      ],
+      "origin": "external",
+      "asset_id": "speech",
+      "sha256": "50e36596e526e24a83a5be2964460b386c0fcca1d6b123c518f02cd33751d2bd"
+    },
+    {
+      "id": "feedback-env-title",
+      "role": "text",
+      "box": [
+        104,
+        855,
+        363,
+        39
+      ]
+    },
+    {
+      "id": "feedback-env-band",
+      "role": "container",
+      "box": [
+        42,
+        905,
+        426,
+        105
+      ]
+    },
+    {
+      "id": "feedback-errors",
+      "role": "container",
+      "box": [
+        494,
+        844,
+        450,
+        182
+      ]
+    },
+    {
+      "id": "feedback-errors-icon",
+      "role": "icon",
+      "box": [
+        506,
+        856,
+        50,
+        50
+      ],
+      "origin": "external",
+      "asset_id": "warning",
+      "sha256": "06faf12e6f71c2232635170245f248e9984ba1bab7868802cad4046697ac477f"
+    },
+    {
+      "id": "feedback-errors-title",
+      "role": "text",
+      "box": [
+        568,
+        855,
+        363,
+        39
+      ]
+    },
+    {
+      "id": "feedback-errors-band",
+      "role": "container",
+      "box": [
+        506,
+        905,
+        426,
+        105
+      ]
+    },
+    {
+      "id": "feedback-critic",
+      "role": "container",
+      "box": [
+        958,
+        844,
+        450,
+        182
+      ]
+    },
+    {
+      "id": "feedback-critic-icon",
+      "role": "icon",
+      "box": [
+        970,
+        856,
+        50,
+        50
+      ],
+      "origin": "external",
+      "asset_id": "check",
+      "sha256": "8799b1d1d05928551d072e5b1c643ef02b40049b44098aa598671caf725f3d8e"
+    },
+    {
+      "id": "feedback-critic-title",
+      "role": "text",
+      "box": [
+        1032,
+        855,
+        363,
+        39
+      ]
+    },
+    {
+      "id": "feedback-critic-band",
+      "role": "container",
+      "box": [
+        970,
+        905,
+        426,
+        105
+      ]
+    },
+    {
+      "id": "env-response",
+      "role": "text",
+      "box": [
+        54,
+        912,
+        400,
+        37
+      ]
+    },
+    {
+      "id": "env-state",
+      "role": "text",
+      "box": [
+        54,
+        960,
+        400,
+        35
+      ]
+    },
+    {
+      "id": "error-response",
+      "role": "text",
+      "box": [
+        518,
+        912,
+        400,
+        37
+      ]
+    },
+    {
+      "id": "error-channel",
+      "role": "text",
+      "box": [
+        518,
+        960,
+        400,
+        35
+      ]
+    },
+    {
+      "id": "critic-false",
+      "role": "text",
+      "box": [
+        982,
+        910,
+        400,
+        37
+      ]
+    },
+    {
+      "id": "critic-advice",
+      "role": "text",
+      "box": [
+        982,
+        960,
+        400,
+        35
+      ]
+    },
+    {
+      "id": "control",
+      "role": "container",
+      "box": [
+        30,
+        1040,
+        1378,
+        110
+      ]
+    },
+    {
+      "id": "retry-icon",
+      "role": "icon",
+      "box": [
+        43,
+        1061,
+        58,
+        58
+      ],
+      "origin": "external",
+      "asset_id": "repeat",
+      "sha256": "a08f7ab97b23f88b880210716a063f2aff8367d0853dda6133c967b6a83d20a7"
+    },
+    {
+      "id": "retry-label",
+      "role": "text",
+      "box": [
+        114,
+        1052,
+        330,
+        37
+      ]
+    },
+    {
+      "id": "retry-details",
+      "role": "text",
+      "box": [
+        114,
+        1095,
+        330,
+        33
+      ]
+    },
+    {
+      "id": "control-divider1",
+      "role": "relation",
+      "points": [
+        [
+          459,
+          1054
+        ],
+        [
+          459,
+          1137
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "budget-icon",
+      "role": "icon",
+      "box": [
+        475,
+        1061,
+        56,
+        56
+      ],
+      "origin": "external",
+      "asset_id": "question",
+      "sha256": "43c2b2cc58fef670dd1b8910e4ba45dc4ec68584de33501b027d87bdfdc91841"
+    },
+    {
+      "id": "budget-label",
+      "role": "text",
+      "box": [
+        546,
+        1052,
+        358,
+        37
+      ]
+    },
+    {
+      "id": "budget-details",
+      "role": "text",
+      "box": [
+        546,
+        1095,
+        358,
+        33
+      ]
+    },
+    {
+      "id": "control-divider2",
+      "role": "relation",
+      "points": [
+        [
+          919,
+          1054
+        ],
+        [
+          919,
+          1137
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "success-icon",
+      "role": "icon",
+      "box": [
+        934,
+        1061,
+        58,
+        58
+      ],
+      "origin": "external",
+      "asset_id": "trophy",
+      "sha256": "0b6b2a656a452f5f6372538925fe79968af4cf4013beb97ea55366ba59eeb4dd"
+    },
+    {
+      "id": "success-label",
+      "role": "text",
+      "box": [
+        1005,
+        1052,
+        383,
+        37
+      ]
+    },
+    {
+      "id": "success-details",
+      "role": "text",
+      "box": [
+        1005,
+        1095,
+        383,
+        33
+      ]
+    },
+    {
+      "id": "retrieval",
+      "role": "container",
+      "box": [
+        1456,
+        374,
+        674,
+        356
+      ]
+    },
+    {
+      "id": "retrieval-icon",
+      "role": "icon",
+      "box": [
+        1466,
+        382,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "search",
+      "sha256": "58131ba954c90a9b81ea6a4978a731e225235dd048628839b2221cfd34632788"
+    },
+    {
+      "id": "retrieval-title",
+      "role": "text",
+      "box": [
+        1518,
+        380,
+        602,
+        42
+      ]
+    },
+    {
+      "id": "retrieval-query",
+      "role": "text",
+      "box": [
+        1472,
+        426,
+        642,
+        36
+      ]
+    },
+    {
+      "id": "query-embedding-0",
+      "role": "geometry",
+      "box": [
+        1480.0,
+        496.08,
+        19.5,
+        12.92
+      ]
+    },
+    {
+      "id": "query-embedding-1",
+      "role": "geometry",
+      "box": [
+        1504.5,
+        483.84,
+        19.5,
+        25.16
+      ]
+    },
+    {
+      "id": "query-embedding-2",
+      "role": "geometry",
+      "box": [
+        1529.0,
+        491.32,
+        19.5,
+        17.68
+      ]
+    },
+    {
+      "id": "query-embedding-3",
+      "role": "geometry",
+      "box": [
+        1553.5,
+        477.04,
+        19.5,
+        31.959999999999997
+      ]
+    },
+    {
+      "id": "query-embedding-4",
+      "role": "geometry",
+      "box": [
+        1578.0,
+        487.92,
+        19.5,
+        21.08
+      ]
+    },
+    {
+      "id": "query-embedding-5",
+      "role": "geometry",
+      "box": [
+        1602.5,
+        494.04,
+        19.5,
+        14.96
+      ]
+    },
+    {
+      "id": "query-embedding-6",
+      "role": "geometry",
+      "box": [
+        1627.0,
+        481.46,
+        19.5,
+        27.540000000000003
+      ]
+    },
+    {
+      "id": "query-embedding-7",
+      "role": "geometry",
+      "box": [
+        1651.5,
+        490.3,
+        19.5,
+        18.700000000000003
+      ]
+    },
+    {
+      "id": "query-to-retrieval",
+      "role": "flow",
+      "points": [
+        [
+          1690,
+          491
+        ],
+        [
+          1746,
+          491
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "search-vector",
+      "role": "icon",
+      "box": [
+        1760,
+        470,
+        44,
+        44
+      ],
+      "origin": "external",
+      "asset_id": "search",
+      "sha256": "58131ba954c90a9b81ea6a4978a731e225235dd048628839b2221cfd34632788"
+    },
+    {
+      "id": "top-k",
+      "role": "container",
+      "box": [
+        1820,
+        471,
+        293,
+        44
+      ]
+    },
+    {
+      "id": "top-k-text",
+      "role": "text",
+      "box": [
+        1826,
+        472,
+        281,
+        42
+      ]
+    },
+    {
+      "id": "retrieved-skill-0",
+      "role": "container",
+      "box": [
+        1472,
+        527,
+        642,
+        32
+      ]
+    },
+    {
+      "id": "retrieved-skill-icon-0",
+      "role": "icon",
+      "box": [
+        1482,
+        528,
+        30,
+        30
+      ],
+      "origin": "external",
+      "asset_id": "globe",
+      "sha256": "98c8fdb64afff52fb829ab5c4956cad8a64343ea60531071c1dd40853ae410bb"
+    },
+    {
+      "id": "retrieved-skill-name-0",
+      "role": "text",
+      "box": [
+        1528,
+        527,
+        570,
+        32
+      ]
+    },
+    {
+      "id": "retrieved-skill-1",
+      "role": "container",
+      "box": [
+        1472,
+        564,
+        642,
+        32
+      ]
+    },
+    {
+      "id": "retrieved-skill-icon-1",
+      "role": "icon",
+      "box": [
+        1482,
+        565,
+        30,
+        30
+      ],
+      "origin": "external",
+      "asset_id": "cube",
+      "sha256": "5af896e61085b5e102cb114145d3c0e322e6ebdf17522111405f62aebf53b2bf"
+    },
+    {
+      "id": "retrieved-skill-name-1",
+      "role": "text",
+      "box": [
+        1528,
+        564,
+        570,
+        32
+      ]
+    },
+    {
+      "id": "retrieved-skill-2",
+      "role": "container",
+      "box": [
+        1472,
+        601,
+        642,
+        32
+      ]
+    },
+    {
+      "id": "retrieved-skill-icon-2",
+      "role": "icon",
+      "box": [
+        1482,
+        602,
+        30,
+        30
+      ],
+      "origin": "external",
+      "asset_id": "tools",
+      "sha256": "5b1f0fbfc14146cad400ec09af5bcde6834b63895332ba4b8f3b655876525c20"
+    },
+    {
+      "id": "retrieved-skill-name-2",
+      "role": "text",
+      "box": [
+        1528,
+        601,
+        570,
+        32
+      ]
+    },
+    {
+      "id": "retrieved-skill-3",
+      "role": "container",
+      "box": [
+        1472,
+        638,
+        642,
+        32
+      ]
+    },
+    {
+      "id": "retrieved-skill-icon-3",
+      "role": "icon",
+      "box": [
+        1482,
+        639,
+        30,
+        30
+      ],
+      "origin": "external",
+      "asset_id": "memo",
+      "sha256": "56009f7f85d521bef02dcd85025e6d520ee17ad505c509537a381e65653d570e"
+    },
+    {
+      "id": "retrieved-skill-name-3",
+      "role": "text",
+      "box": [
+        1528,
+        638,
+        570,
+        32
+      ]
+    },
+    {
+      "id": "retrieved-skill-4",
+      "role": "container",
+      "box": [
+        1472,
+        675,
+        642,
+        32
+      ]
+    },
+    {
+      "id": "retrieved-skill-icon-4",
+      "role": "icon",
+      "box": [
+        1482,
+        676,
+        30,
+        30
+      ],
+      "origin": "external",
+      "asset_id": "tools",
+      "sha256": "5b1f0fbfc14146cad400ec09af5bcde6834b63895332ba4b8f3b655876525c20"
+    },
+    {
+      "id": "retrieved-skill-name-4",
+      "role": "text",
+      "box": [
+        1528,
+        675,
+        570,
+        32
+      ]
+    },
+    {
+      "id": "index",
+      "role": "container",
+      "box": [
+        1456,
+        746,
+        674,
+        223
+      ]
+    },
+    {
+      "id": "index-icon",
+      "role": "icon",
+      "box": [
+        1466,
+        754,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "memory",
+      "sha256": "7eaf7bfceffd43663ccf0afe76932212e35e5a49fc4aa3c1362960435938f832"
+    },
+    {
+      "id": "index-title",
+      "role": "text",
+      "box": [
+        1518,
+        752,
+        602,
+        42
+      ]
+    },
+    {
+      "id": "describe-code-icon",
+      "role": "icon",
+      "box": [
+        1472,
+        803,
+        48,
+        48
+      ],
+      "origin": "external",
+      "asset_id": "robot",
+      "sha256": "d157dd795c21fd455841ee42bffe1fb63c23548ce504305d70f416ceac7a05c5"
+    },
+    {
+      "id": "describe-code-label",
+      "role": "text",
+      "box": [
+        1534,
+        805,
+        578,
+        36
+      ]
+    },
+    {
+      "id": "program-description",
+      "role": "container",
+      "box": [
+        1472,
+        851,
+        642,
+        43
+      ]
+    },
+    {
+      "id": "program-description-text",
+      "role": "text",
+      "box": [
+        1478,
+        852,
+        630,
+        41
+      ]
+    },
+    {
+      "id": "embedding-key-label",
+      "role": "text",
+      "box": [
+        1472,
+        903,
+        339,
+        31
+      ]
+    },
+    {
+      "id": "stored-key-0",
+      "role": "geometry",
+      "box": [
+        1472.0,
+        949.4,
+        30.375,
+        7.6
+      ]
+    },
+    {
+      "id": "stored-key-1",
+      "role": "geometry",
+      "box": [
+        1507.375,
+        942.2,
+        30.375,
+        14.8
+      ]
+    },
+    {
+      "id": "stored-key-2",
+      "role": "geometry",
+      "box": [
+        1542.75,
+        946.6,
+        30.375,
+        10.4
+      ]
+    },
+    {
+      "id": "stored-key-3",
+      "role": "geometry",
+      "box": [
+        1578.125,
+        938.2,
+        30.375,
+        18.799999999999997
+      ]
+    },
+    {
+      "id": "stored-key-4",
+      "role": "geometry",
+      "box": [
+        1613.5,
+        944.6,
+        30.375,
+        12.4
+      ]
+    },
+    {
+      "id": "stored-key-5",
+      "role": "geometry",
+      "box": [
+        1648.875,
+        948.2,
+        30.375,
+        8.8
+      ]
+    },
+    {
+      "id": "stored-key-6",
+      "role": "geometry",
+      "box": [
+        1684.25,
+        940.8,
+        30.375,
+        16.200000000000003
+      ]
+    },
+    {
+      "id": "stored-key-7",
+      "role": "geometry",
+      "box": [
+        1719.625,
+        946.0,
+        30.375,
+        11.0
+      ]
+    },
+    {
+      "id": "key-value-map",
+      "role": "flow",
+      "points": [
+        [
+          1774,
+          928
+        ],
+        [
+          1817,
+          928
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "program-value",
+      "role": "container",
+      "box": [
+        1833,
+        906,
+        281,
+        48
+      ]
+    },
+    {
+      "id": "program-value-text",
+      "role": "text",
+      "box": [
+        1839,
+        907,
+        269,
+        46
+      ]
+    },
+    {
+      "id": "write",
+      "role": "container",
+      "box": [
+        1456,
+        985,
+        674,
+        166
+      ]
+    },
+    {
+      "id": "write-icon",
+      "role": "icon",
+      "box": [
+        1466,
+        993,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "check",
+      "sha256": "8799b1d1d05928551d072e5b1c643ef02b40049b44098aa598671caf725f3d8e"
+    },
+    {
+      "id": "write-title",
+      "role": "text",
+      "box": [
+        1518,
+        991,
+        602,
+        42
+      ]
+    },
+    {
+      "id": "store-code",
+      "role": "text",
+      "box": [
+        1472,
+        1036,
+        642,
+        37
+      ]
+    },
+    {
+      "id": "stored-artifact",
+      "role": "icon",
+      "box": [
+        1472,
+        1081,
+        51,
+        51
+      ],
+      "origin": "external",
+      "asset_id": "memo",
+      "sha256": "56009f7f85d521bef02dcd85025e6d520ee17ad505c509537a381e65653d570e"
+    },
+    {
+      "id": "new-memory-entry",
+      "role": "container",
+      "box": [
+        1542,
+        1081,
+        572,
+        51
+      ]
+    },
+    {
+      "id": "new-memory-entry-text",
+      "role": "text",
+      "box": [
+        1548,
+        1082,
+        560,
+        49
+      ]
+    },
+    {
+      "id": "success-write",
+      "role": "flow",
+      "points": [
+        [
+          1409,
+          1105
+        ],
+        [
+          1455,
+          1105
+        ]
+      ],
+      "source": null,
+      "target": null
+    }
+  ]
+}

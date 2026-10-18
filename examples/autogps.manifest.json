@@ -1,0 +1,2700 @@
+{
+  "canvas": [
+    2160,
+    1180
+  ],
+  "objects": [
+    {
+      "id": "page",
+      "role": "background",
+      "box": [
+        0,
+        0,
+        2160,
+        1180
+      ]
+    },
+    {
+      "id": "input",
+      "role": "container",
+      "box": [
+        14,
+        14,
+        326,
+        1152
+      ]
+    },
+    {
+      "id": "input-icon",
+      "role": "icon",
+      "box": [
+        26,
+        23,
+        70,
+        70
+      ],
+      "origin": "external",
+      "asset_id": "compass",
+      "sha256": "58ce23c3e49306940f746f2014533cdfc35839d7aaa3c87d081f5937dea8b8a2"
+    },
+    {
+      "id": "input-ribbon",
+      "role": "container",
+      "box": [
+        105,
+        27,
+        218,
+        59
+      ]
+    },
+    {
+      "id": "input-title",
+      "role": "text",
+      "box": [
+        117,
+        26,
+        213,
+        60
+      ]
+    },
+    {
+      "id": "formalize",
+      "role": "container",
+      "box": [
+        354,
+        14,
+        748,
+        700
+      ]
+    },
+    {
+      "id": "formalize-icon",
+      "role": "icon",
+      "box": [
+        366,
+        23,
+        70,
+        70
+      ],
+      "origin": "external",
+      "asset_id": "brain",
+      "sha256": "47bf53bc28d51638104db2b290b43832aac33c08d37859f96abe31fcbcf737d4"
+    },
+    {
+      "id": "formalize-ribbon",
+      "role": "container",
+      "box": [
+        445,
+        27,
+        640,
+        59
+      ]
+    },
+    {
+      "id": "formalize-title",
+      "role": "text",
+      "box": [
+        457,
+        26,
+        635,
+        60
+      ]
+    },
+    {
+      "id": "validate",
+      "role": "container",
+      "box": [
+        354,
+        730,
+        748,
+        436
+      ]
+    },
+    {
+      "id": "validate-icon",
+      "role": "icon",
+      "box": [
+        366,
+        739,
+        70,
+        70
+      ],
+      "origin": "external",
+      "asset_id": "check",
+      "sha256": "8799b1d1d05928551d072e5b1c643ef02b40049b44098aa598671caf725f3d8e"
+    },
+    {
+      "id": "validate-ribbon",
+      "role": "container",
+      "box": [
+        445,
+        743,
+        512,
+        59
+      ]
+    },
+    {
+      "id": "validate-title",
+      "role": "text",
+      "box": [
+        457,
+        742,
+        635,
+        60
+      ]
+    },
+    {
+      "id": "expand",
+      "role": "container",
+      "box": [
+        1118,
+        14,
+        1028,
+        724
+      ]
+    },
+    {
+      "id": "expand-icon",
+      "role": "icon",
+      "box": [
+        1130,
+        23,
+        70,
+        70
+      ],
+      "origin": "external",
+      "asset_id": "reasoner",
+      "sha256": "d5102ad3253fb5603fe2fc285027483b8344d1df6fa5fe72b559b6e301097156"
+    },
+    {
+      "id": "expand-ribbon",
+      "role": "container",
+      "box": [
+        1209,
+        27,
+        767,
+        59
+      ]
+    },
+    {
+      "id": "expand-title",
+      "role": "text",
+      "box": [
+        1221,
+        26,
+        915,
+        60
+      ]
+    },
+    {
+      "id": "explain",
+      "role": "container",
+      "box": [
+        1118,
+        754,
+        1028,
+        412
+      ]
+    },
+    {
+      "id": "explain-icon",
+      "role": "icon",
+      "box": [
+        1130,
+        763,
+        70,
+        70
+      ],
+      "origin": "external",
+      "asset_id": "clipboard",
+      "sha256": "d2d0b77e574c897eea1ce47968d8b795a4f20ba43e3c9300f72b2aba68b031e0"
+    },
+    {
+      "id": "explain-ribbon",
+      "role": "container",
+      "box": [
+        1209,
+        767,
+        579,
+        59
+      ]
+    },
+    {
+      "id": "explain-title",
+      "role": "text",
+      "box": [
+        1221,
+        766,
+        915,
+        60
+      ]
+    },
+    {
+      "id": "question",
+      "role": "container",
+      "box": [
+        28,
+        105,
+        298,
+        446
+      ]
+    },
+    {
+      "id": "question-title",
+      "role": "text",
+      "box": [
+        40,
+        111,
+        276,
+        44
+      ]
+    },
+    {
+      "id": "request",
+      "role": "text",
+      "box": [
+        43,
+        156,
+        268,
+        82
+      ]
+    },
+    {
+      "id": "original-diagram",
+      "role": "geometry",
+      "box": [
+        76,
+        249,
+        201,
+        227
+      ]
+    },
+    {
+      "id": "original-diagram-height",
+      "role": "relation",
+      "points": [
+        [
+          176.5,
+          249
+        ],
+        [
+          176.5,
+          476
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "original-diagram-right-angle",
+      "role": "relation",
+      "points": [
+        [
+          176.5,
+          461
+        ],
+        [
+          191.5,
+          461
+        ],
+        [
+          191.5,
+          476
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "original-diagram-left-length",
+      "role": "text",
+      "box": [
+        61,
+        353.42,
+        50,
+        36
+      ]
+    },
+    {
+      "id": "original-diagram-right-length",
+      "role": "text",
+      "box": [
+        245,
+        353.42,
+        50,
+        36
+      ]
+    },
+    {
+      "id": "original-diagram-base-dimension",
+      "role": "relation",
+      "points": [
+        [
+          76,
+          500
+        ],
+        [
+          277,
+          500
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "original-diagram-dimension-end0",
+      "role": "relation",
+      "points": [
+        [
+          76,
+          494
+        ],
+        [
+          76,
+          506
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "original-diagram-dimension-end1",
+      "role": "relation",
+      "points": [
+        [
+          277,
+          494
+        ],
+        [
+          277,
+          506
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "original-diagram-base-length",
+      "role": "text",
+      "box": [
+        146.5,
+        502,
+        60,
+        36
+      ]
+    },
+    {
+      "id": "tools",
+      "role": "container",
+      "box": [
+        28,
+        566,
+        298,
+        389
+      ]
+    },
+    {
+      "id": "tools-title",
+      "role": "text",
+      "box": [
+        40,
+        572,
+        276,
+        44
+      ]
+    },
+    {
+      "id": "tool-0",
+      "role": "icon",
+      "box": [
+        68,
+        628,
+        79,
+        79
+      ],
+      "origin": "external",
+      "asset_id": "compass",
+      "sha256": "58ce23c3e49306940f746f2014533cdfc35839d7aaa3c87d081f5937dea8b8a2"
+    },
+    {
+      "id": "tool-label-0",
+      "role": "text",
+      "box": [
+        40,
+        715,
+        136,
+        57
+      ]
+    },
+    {
+      "id": "tool-1",
+      "role": "icon",
+      "box": [
+        211,
+        628,
+        79,
+        79
+      ],
+      "origin": "external",
+      "asset_id": "image",
+      "sha256": "f0eb280a2f4742d99b95737283616ae33482992539b1732108419141b073dc14"
+    },
+    {
+      "id": "tool-label-1",
+      "role": "text",
+      "box": [
+        183,
+        715,
+        136,
+        57
+      ]
+    },
+    {
+      "id": "tool-2",
+      "role": "icon",
+      "box": [
+        68,
+        786,
+        79,
+        79
+      ],
+      "origin": "external",
+      "asset_id": "memo",
+      "sha256": "56009f7f85d521bef02dcd85025e6d520ee17ad505c509537a381e65653d570e"
+    },
+    {
+      "id": "tool-label-2",
+      "role": "text",
+      "box": [
+        40,
+        873,
+        136,
+        57
+      ]
+    },
+    {
+      "id": "tool-3",
+      "role": "icon",
+      "box": [
+        211,
+        786,
+        79,
+        79
+      ],
+      "origin": "external",
+      "asset_id": "syntax",
+      "sha256": "c2e85f7903cdee12f6ee66dfff7d61a85ebf6c2cb3bc565c4d5d8b6895cd7eba"
+    },
+    {
+      "id": "tool-label-3",
+      "role": "text",
+      "box": [
+        183,
+        873,
+        136,
+        57
+      ]
+    },
+    {
+      "id": "goal",
+      "role": "container",
+      "box": [
+        28,
+        971,
+        298,
+        180
+      ]
+    },
+    {
+      "id": "goal-icon",
+      "role": "icon",
+      "box": [
+        38,
+        979,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "search",
+      "sha256": "58131ba954c90a9b81ea6a4978a731e225235dd048628839b2221cfd34632788"
+    },
+    {
+      "id": "goal-title",
+      "role": "text",
+      "box": [
+        90,
+        977,
+        226,
+        44
+      ]
+    },
+    {
+      "id": "area-symbol",
+      "role": "text",
+      "box": [
+        43,
+        1030,
+        266,
+        44
+      ]
+    },
+    {
+      "id": "target-unknown",
+      "role": "container",
+      "box": [
+        46,
+        1083,
+        262,
+        51
+      ]
+    },
+    {
+      "id": "target-unknown-text",
+      "role": "text",
+      "box": [
+        51,
+        1084,
+        252,
+        49
+      ]
+    },
+    {
+      "id": "annotation",
+      "role": "container",
+      "box": [
+        370,
+        105,
+        231,
+        319
+      ]
+    },
+    {
+      "id": "annotation-title",
+      "role": "text",
+      "box": [
+        382,
+        111,
+        209,
+        44
+      ]
+    },
+    {
+      "id": "annotated-diagram",
+      "role": "geometry",
+      "box": [
+        407,
+        185,
+        153,
+        154
+      ]
+    },
+    {
+      "id": "annotated-diagram-height",
+      "role": "relation",
+      "points": [
+        [
+          483.5,
+          185
+        ],
+        [
+          483.5,
+          339
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "annotated-diagram-right-angle",
+      "role": "relation",
+      "points": [
+        [
+          483.5,
+          324
+        ],
+        [
+          498.5,
+          324
+        ],
+        [
+          498.5,
+          339
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "annotated-diagram-left-length",
+      "role": "text",
+      "box": [
+        392,
+        255.84,
+        50,
+        36
+      ]
+    },
+    {
+      "id": "annotated-diagram-right-length",
+      "role": "text",
+      "box": [
+        528,
+        255.84,
+        50,
+        36
+      ]
+    },
+    {
+      "id": "annotated-diagram-base-length",
+      "role": "text",
+      "box": [
+        453.5,
+        377,
+        60,
+        36
+      ]
+    },
+    {
+      "id": "annotated-diagram-point-D",
+      "role": "illustration",
+      "box": [
+        480.5,
+        182,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "annotated-diagram-label-D",
+      "role": "text",
+      "box": [
+        491.5,
+        153,
+        30,
+        34
+      ]
+    },
+    {
+      "id": "annotated-diagram-point-A",
+      "role": "illustration",
+      "box": [
+        404,
+        336,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "annotated-diagram-label-A",
+      "role": "text",
+      "box": [
+        378,
+        339,
+        30,
+        34
+      ]
+    },
+    {
+      "id": "annotated-diagram-point-B",
+      "role": "illustration",
+      "box": [
+        480.5,
+        336,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "annotated-diagram-label-B",
+      "role": "text",
+      "box": [
+        491.5,
+        339,
+        30,
+        34
+      ]
+    },
+    {
+      "id": "annotated-diagram-point-C",
+      "role": "illustration",
+      "box": [
+        557,
+        336,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "annotated-diagram-label-C",
+      "role": "text",
+      "box": [
+        568,
+        339,
+        30,
+        34
+      ]
+    },
+    {
+      "id": "diagram-parser",
+      "role": "container",
+      "box": [
+        615,
+        105,
+        471,
+        171
+      ]
+    },
+    {
+      "id": "diagram-parser-icon",
+      "role": "icon",
+      "box": [
+        625,
+        113,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "image",
+      "sha256": "f0eb280a2f4742d99b95737283616ae33482992539b1732108419141b073dc14"
+    },
+    {
+      "id": "diagram-parser-title",
+      "role": "text",
+      "box": [
+        677,
+        111,
+        399,
+        44
+      ]
+    },
+    {
+      "id": "segments",
+      "role": "text",
+      "box": [
+        630,
+        160,
+        440,
+        38
+      ]
+    },
+    {
+      "id": "parsed-incidence",
+      "role": "container",
+      "box": [
+        630,
+        205,
+        164,
+        48
+      ]
+    },
+    {
+      "id": "parsed-incidence-text",
+      "role": "text",
+      "box": [
+        635,
+        206,
+        154,
+        46
+      ]
+    },
+    {
+      "id": "parsed-orthogonal",
+      "role": "container",
+      "box": [
+        805,
+        205,
+        264,
+        48
+      ]
+    },
+    {
+      "id": "parsed-orthogonal-text",
+      "role": "text",
+      "box": [
+        810,
+        206,
+        254,
+        46
+      ]
+    },
+    {
+      "id": "text-parser",
+      "role": "container",
+      "box": [
+        615,
+        290,
+        471,
+        134
+      ]
+    },
+    {
+      "id": "text-parser-icon",
+      "role": "icon",
+      "box": [
+        625,
+        298,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "memo",
+      "sha256": "56009f7f85d521bef02dcd85025e6d520ee17ad505c509537a381e65653d570e"
+    },
+    {
+      "id": "text-parser-title",
+      "role": "text",
+      "box": [
+        677,
+        296,
+        399,
+        44
+      ]
+    },
+    {
+      "id": "partial-target",
+      "role": "text",
+      "box": [
+        630,
+        350,
+        440,
+        52
+      ]
+    },
+    {
+      "id": "annotation-to-align",
+      "role": "flow",
+      "points": [
+        [
+          485,
+          428
+        ],
+        [
+          485,
+          446
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "parsers-to-align",
+      "role": "flow",
+      "points": [
+        [
+          850,
+          428
+        ],
+        [
+          850,
+          446
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "alignment",
+      "role": "container",
+      "box": [
+        370,
+        450,
+        716,
+        247
+      ]
+    },
+    {
+      "id": "alignment-icon",
+      "role": "icon",
+      "box": [
+        380,
+        458,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "align",
+      "sha256": "e9c86ec506a58cf6b3b3359b8f7debc74fbcdfa9f5dd30b877bee14a9989c97d"
+    },
+    {
+      "id": "alignment-title",
+      "role": "text",
+      "box": [
+        432,
+        456,
+        644,
+        44
+      ]
+    },
+    {
+      "id": "alignment-agent",
+      "role": "icon",
+      "box": [
+        382,
+        516,
+        88,
+        88
+      ],
+      "origin": "external",
+      "asset_id": "robot",
+      "sha256": "d157dd795c21fd455841ee42bffe1fb63c23548ce504305d70f416ceac7a05c5"
+    },
+    {
+      "id": "resolve-shape",
+      "role": "container",
+      "box": [
+        483,
+        509,
+        585,
+        51
+      ]
+    },
+    {
+      "id": "resolve-shape-text",
+      "role": "text",
+      "box": [
+        488,
+        510,
+        575,
+        49
+      ]
+    },
+    {
+      "id": "alignment-model",
+      "role": "text",
+      "box": [
+        382,
+        606,
+        88,
+        31
+      ]
+    },
+    {
+      "id": "formalized-premises",
+      "role": "text",
+      "box": [
+        484,
+        570,
+        584,
+        76
+      ]
+    },
+    {
+      "id": "final-target-band",
+      "role": "container",
+      "box": [
+        383,
+        652,
+        689,
+        34
+      ]
+    },
+    {
+      "id": "formalization-syntax",
+      "role": "icon",
+      "box": [
+        389,
+        653,
+        31,
+        31
+      ],
+      "origin": "external",
+      "asset_id": "syntax",
+      "sha256": "c2e85f7903cdee12f6ee66dfff7d61a85ebf6c2cb3bc565c4d5d8b6895cd7eba"
+    },
+    {
+      "id": "final-target",
+      "role": "text",
+      "box": [
+        433,
+        650,
+        631,
+        37
+      ]
+    },
+    {
+      "id": "contradiction",
+      "role": "container",
+      "box": [
+        370,
+        821,
+        350,
+        140
+      ]
+    },
+    {
+      "id": "contradiction-title",
+      "role": "text",
+      "box": [
+        382,
+        827,
+        328,
+        44
+      ]
+    },
+    {
+      "id": "contradiction-icon",
+      "role": "icon",
+      "box": [
+        383,
+        874,
+        59,
+        59
+      ],
+      "origin": "external",
+      "asset_id": "warning",
+      "sha256": "06faf12e6f71c2232635170245f248e9984ba1bab7868802cad4046697ac477f"
+    },
+    {
+      "id": "collinear-counterexample",
+      "role": "text",
+      "box": [
+        453,
+        870,
+        253,
+        35
+      ]
+    },
+    {
+      "id": "invalid-triangle",
+      "role": "text",
+      "box": [
+        453,
+        911,
+        253,
+        35
+      ]
+    },
+    {
+      "id": "completion",
+      "role": "container",
+      "box": [
+        736,
+        821,
+        350,
+        140
+      ]
+    },
+    {
+      "id": "completion-title",
+      "role": "text",
+      "box": [
+        748,
+        827,
+        328,
+        44
+      ]
+    },
+    {
+      "id": "completion-icon",
+      "role": "icon",
+      "box": [
+        750,
+        876,
+        58,
+        58
+      ],
+      "origin": "external",
+      "asset_id": "book",
+      "sha256": "05a83e889a7f42c682f3e040ccc814219f23d420978440275f543566081e0d27"
+    },
+    {
+      "id": "input-relation",
+      "role": "text",
+      "box": [
+        820,
+        870,
+        250,
+        36
+      ]
+    },
+    {
+      "id": "implied-relation",
+      "role": "text",
+      "box": [
+        820,
+        911,
+        250,
+        36
+      ]
+    },
+    {
+      "id": "validation-pass",
+      "role": "container",
+      "box": [
+        370,
+        975,
+        716,
+        70
+      ]
+    },
+    {
+      "id": "pass-icon",
+      "role": "icon",
+      "box": [
+        382,
+        984,
+        48,
+        48
+      ],
+      "origin": "external",
+      "asset_id": "check",
+      "sha256": "8799b1d1d05928551d072e5b1c643ef02b40049b44098aa598671caf725f3d8e"
+    },
+    {
+      "id": "validated-record",
+      "role": "text",
+      "box": [
+        445,
+        991,
+        623,
+        38
+      ]
+    },
+    {
+      "id": "feedback-band",
+      "role": "container",
+      "box": [
+        370,
+        1058,
+        716,
+        91
+      ]
+    },
+    {
+      "id": "refine-icon",
+      "role": "icon",
+      "box": [
+        382,
+        1070,
+        58,
+        58
+      ],
+      "origin": "external",
+      "asset_id": "repeat",
+      "sha256": "a08f7ab97b23f88b880210716a063f2aff8367d0853dda6133c967b6a83d20a7"
+    },
+    {
+      "id": "feedback-text",
+      "role": "text",
+      "box": [
+        452,
+        1068,
+        620,
+        37
+      ]
+    },
+    {
+      "id": "feedback-limit",
+      "role": "text",
+      "box": [
+        452,
+        1107,
+        620,
+        31
+      ]
+    },
+    {
+      "id": "hypergraph",
+      "role": "container",
+      "box": [
+        1134,
+        105,
+        996,
+        290
+      ]
+    },
+    {
+      "id": "root",
+      "role": "container",
+      "box": [
+        1150,
+        116,
+        86,
+        36
+      ]
+    },
+    {
+      "id": "root-text",
+      "role": "text",
+      "box": [
+        1155,
+        117,
+        76,
+        34
+      ]
+    },
+    {
+      "id": "known-facts-icon",
+      "role": "icon",
+      "box": [
+        1249,
+        115,
+        34,
+        34
+      ],
+      "origin": "external",
+      "asset_id": "memo",
+      "sha256": "56009f7f85d521bef02dcd85025e6d520ee17ad505c509537a381e65653d570e"
+    },
+    {
+      "id": "known-facts",
+      "role": "text",
+      "box": [
+        1295,
+        114,
+        217,
+        39
+      ]
+    },
+    {
+      "id": "node-legend",
+      "role": "container",
+      "box": [
+        1533,
+        117,
+        113,
+        34
+      ]
+    },
+    {
+      "id": "node-legend-text",
+      "role": "text",
+      "box": [
+        1538,
+        118,
+        103,
+        32
+      ]
+    },
+    {
+      "id": "edge-legend",
+      "role": "container",
+      "box": [
+        1661,
+        117,
+        145,
+        34
+      ]
+    },
+    {
+      "id": "edge-legend-text",
+      "role": "text",
+      "box": [
+        1666,
+        118,
+        135,
+        32
+      ]
+    },
+    {
+      "id": "graph-caption",
+      "role": "text",
+      "box": [
+        1820,
+        113,
+        292,
+        40
+      ]
+    },
+    {
+      "id": "known-facts-bus",
+      "role": "relation",
+      "points": [
+        [
+          1193,
+          152
+        ],
+        [
+          1193,
+          161
+        ],
+        [
+          1999,
+          161
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "initial-fact-0",
+      "role": "flow",
+      "points": [
+        [
+          1270,
+          161
+        ],
+        [
+          1270,
+          172
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "initial-fact-1",
+      "role": "flow",
+      "points": [
+        [
+          1485,
+          161
+        ],
+        [
+          1485,
+          172
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "initial-fact-2",
+      "role": "flow",
+      "points": [
+        [
+          1724,
+          161
+        ],
+        [
+          1724,
+          172
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "initial-fact-3",
+      "role": "flow",
+      "points": [
+        [
+          1999,
+          161
+        ],
+        [
+          1999,
+          172
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "fact-equal",
+      "role": "container",
+      "box": [
+        1150,
+        173,
+        239,
+        62
+      ]
+    },
+    {
+      "id": "fact-equal-icon",
+      "role": "icon",
+      "box": [
+        1158,
+        183,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "ruler",
+      "sha256": "359e1ab303bae542373a79481eacfa3da9aee6e3d74ec655c8032a4765c4b2e8"
+    },
+    {
+      "id": "fact-equal-text",
+      "role": "text",
+      "box": [
+        1208,
+        175,
+        173,
+        58
+      ]
+    },
+    {
+      "id": "fact-base",
+      "role": "container",
+      "box": [
+        1405,
+        173,
+        159,
+        62
+      ]
+    },
+    {
+      "id": "fact-base-icon",
+      "role": "icon",
+      "box": [
+        1413,
+        183,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "ruler",
+      "sha256": "359e1ab303bae542373a79481eacfa3da9aee6e3d74ec655c8032a4765c4b2e8"
+    },
+    {
+      "id": "fact-base-text",
+      "role": "text",
+      "box": [
+        1463,
+        175,
+        93,
+        58
+      ]
+    },
+    {
+      "id": "fact-configuration",
+      "role": "container",
+      "box": [
+        1580,
+        173,
+        288,
+        62
+      ]
+    },
+    {
+      "id": "fact-configuration-icon",
+      "role": "icon",
+      "box": [
+        1588,
+        183,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "compass",
+      "sha256": "58ce23c3e49306940f746f2014533cdfc35839d7aaa3c87d081f5937dea8b8a2"
+    },
+    {
+      "id": "fact-configuration-text",
+      "role": "text",
+      "box": [
+        1638,
+        175,
+        222,
+        58
+      ]
+    },
+    {
+      "id": "fact-triangles",
+      "role": "container",
+      "box": [
+        1884,
+        173,
+        230,
+        62
+      ]
+    },
+    {
+      "id": "fact-triangles-icon",
+      "role": "icon",
+      "box": [
+        1892,
+        183,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "compass",
+      "sha256": "58ce23c3e49306940f746f2014533cdfc35839d7aaa3c87d081f5937dea8b8a2"
+    },
+    {
+      "id": "fact-triangles-text",
+      "role": "text",
+      "box": [
+        1942,
+        175,
+        164,
+        58
+      ]
+    },
+    {
+      "id": "equal-to-isosceles",
+      "role": "relation",
+      "points": [
+        [
+          1270,
+          235
+        ],
+        [
+          1270,
+          268
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "configuration-bus",
+      "role": "relation",
+      "points": [
+        [
+          1724,
+          235
+        ],
+        [
+          1724,
+          253
+        ],
+        [
+          1340,
+          253
+        ],
+        [
+          1340,
+          268
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "configuration-to-pythagoras",
+      "role": "relation",
+      "points": [
+        [
+          1724,
+          253
+        ],
+        [
+          1641,
+          253
+        ],
+        [
+          1641,
+          268
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "configuration-to-area",
+      "role": "relation",
+      "points": [
+        [
+          1724,
+          253
+        ],
+        [
+          1958,
+          253
+        ],
+        [
+          1958,
+          268
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "triangle-to-pythagoras",
+      "role": "relation",
+      "points": [
+        [
+          1999,
+          235
+        ],
+        [
+          1999,
+          243
+        ],
+        [
+          1691,
+          243
+        ],
+        [
+          1691,
+          268
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "triangle-to-area",
+      "role": "relation",
+      "points": [
+        [
+          1999,
+          235
+        ],
+        [
+          1999,
+          268
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "deduce-midpoint",
+      "role": "container",
+      "box": [
+        1150,
+        269,
+        305,
+        49
+      ]
+    },
+    {
+      "id": "deduce-midpoint-icon",
+      "role": "icon",
+      "box": [
+        1158,
+        271,
+        46,
+        46
+      ],
+      "origin": "external",
+      "asset_id": "theorems",
+      "sha256": "759da9ada832cf77b2f4d5e9e6cbc443ecf0d9c1a8420570ea7b58ef2b33cf10"
+    },
+    {
+      "id": "deduce-midpoint-text",
+      "role": "text",
+      "box": [
+        1214,
+        270,
+        231,
+        47
+      ]
+    },
+    {
+      "id": "deduce-midpoint-output",
+      "role": "flow",
+      "points": [
+        [
+          1302.5,
+          319
+        ],
+        [
+          1302.5,
+          339
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "deduce-pythagoras",
+      "role": "container",
+      "box": [
+        1481,
+        269,
+        306,
+        49
+      ]
+    },
+    {
+      "id": "deduce-pythagoras-icon",
+      "role": "icon",
+      "box": [
+        1489,
+        271,
+        46,
+        46
+      ],
+      "origin": "external",
+      "asset_id": "theorems",
+      "sha256": "759da9ada832cf77b2f4d5e9e6cbc443ecf0d9c1a8420570ea7b58ef2b33cf10"
+    },
+    {
+      "id": "deduce-pythagoras-text",
+      "role": "text",
+      "box": [
+        1545,
+        270,
+        232,
+        47
+      ]
+    },
+    {
+      "id": "deduce-pythagoras-output",
+      "role": "flow",
+      "points": [
+        [
+          1634.0,
+          319
+        ],
+        [
+          1634.0,
+          339
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "deduce-area",
+      "role": "container",
+      "box": [
+        1813,
+        269,
+        301,
+        49
+      ]
+    },
+    {
+      "id": "deduce-area-icon",
+      "role": "icon",
+      "box": [
+        1821,
+        271,
+        46,
+        46
+      ],
+      "origin": "external",
+      "asset_id": "ruler",
+      "sha256": "359e1ab303bae542373a79481eacfa3da9aee6e3d74ec655c8032a4765c4b2e8"
+    },
+    {
+      "id": "deduce-area-text",
+      "role": "text",
+      "box": [
+        1877,
+        270,
+        227,
+        47
+      ]
+    },
+    {
+      "id": "deduce-area-output",
+      "role": "flow",
+      "points": [
+        [
+          1963.5,
+          319
+        ],
+        [
+          1963.5,
+          339
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "relation-midpoint",
+      "role": "container",
+      "box": [
+        1150,
+        340,
+        305,
+        43
+      ]
+    },
+    {
+      "id": "relation-midpoint-text",
+      "role": "text",
+      "box": [
+        1155,
+        341,
+        295,
+        41
+      ]
+    },
+    {
+      "id": "relation-pythagoras",
+      "role": "container",
+      "box": [
+        1481,
+        340,
+        306,
+        43
+      ]
+    },
+    {
+      "id": "relation-pythagoras-text",
+      "role": "text",
+      "box": [
+        1486,
+        341,
+        296,
+        41
+      ]
+    },
+    {
+      "id": "relation-area",
+      "role": "container",
+      "box": [
+        1813,
+        340,
+        301,
+        43
+      ]
+    },
+    {
+      "id": "relation-area-text",
+      "role": "text",
+      "box": [
+        1818,
+        341,
+        291,
+        41
+      ]
+    },
+    {
+      "id": "geometric-to-algebra",
+      "role": "flow",
+      "points": [
+        [
+          1632,
+          397
+        ],
+        [
+          1632,
+          408
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "algebra-engine",
+      "role": "container",
+      "box": [
+        1134,
+        409,
+        996,
+        189
+      ]
+    },
+    {
+      "id": "algebra-engine-icon",
+      "role": "icon",
+      "box": [
+        1146,
+        414,
+        35,
+        35
+      ],
+      "origin": "external",
+      "asset_id": "calculator",
+      "sha256": "134922eca407db7f338602a7e402d31ea3bbc7ac0b4a654f950f05a24e6403ae"
+    },
+    {
+      "id": "algebra-engine-heading",
+      "role": "text",
+      "box": [
+        1191,
+        410,
+        716,
+        40
+      ]
+    },
+    {
+      "id": "kernel-substitute",
+      "role": "container",
+      "box": [
+        1150,
+        456,
+        471,
+        61
+      ]
+    },
+    {
+      "id": "kernel-substitute-icon",
+      "role": "icon",
+      "box": [
+        1157,
+        460,
+        53,
+        53
+      ],
+      "origin": "external",
+      "asset_id": "align",
+      "sha256": "e9c86ec506a58cf6b3b3359b8f7debc74fbcdfa9f5dd30b877bee14a9989c97d"
+    },
+    {
+      "id": "kernel-substitute-title",
+      "role": "text",
+      "box": [
+        1221,
+        458,
+        389,
+        27
+      ]
+    },
+    {
+      "id": "kernel-substitute-example",
+      "role": "text",
+      "box": [
+        1221,
+        487,
+        389,
+        27
+      ]
+    },
+    {
+      "id": "kernel-evaluate",
+      "role": "container",
+      "box": [
+        1643,
+        456,
+        471,
+        61
+      ]
+    },
+    {
+      "id": "kernel-evaluate-icon",
+      "role": "icon",
+      "box": [
+        1650,
+        460,
+        53,
+        53
+      ],
+      "origin": "external",
+      "asset_id": "calculator",
+      "sha256": "134922eca407db7f338602a7e402d31ea3bbc7ac0b4a654f950f05a24e6403ae"
+    },
+    {
+      "id": "kernel-evaluate-title",
+      "role": "text",
+      "box": [
+        1714,
+        458,
+        389,
+        27
+      ]
+    },
+    {
+      "id": "kernel-evaluate-example",
+      "role": "text",
+      "box": [
+        1714,
+        487,
+        389,
+        27
+      ]
+    },
+    {
+      "id": "kernel-nonlinear",
+      "role": "container",
+      "box": [
+        1150,
+        525,
+        471,
+        61
+      ]
+    },
+    {
+      "id": "kernel-nonlinear-icon",
+      "role": "icon",
+      "box": [
+        1157,
+        529,
+        53,
+        53
+      ],
+      "origin": "external",
+      "asset_id": "brain",
+      "sha256": "47bf53bc28d51638104db2b290b43832aac33c08d37859f96abe31fcbcf737d4"
+    },
+    {
+      "id": "kernel-nonlinear-title",
+      "role": "text",
+      "box": [
+        1221,
+        527,
+        389,
+        27
+      ]
+    },
+    {
+      "id": "kernel-nonlinear-example",
+      "role": "text",
+      "box": [
+        1221,
+        556,
+        389,
+        27
+      ]
+    },
+    {
+      "id": "kernel-linear",
+      "role": "container",
+      "box": [
+        1643,
+        525,
+        471,
+        61
+      ]
+    },
+    {
+      "id": "kernel-linear-icon",
+      "role": "icon",
+      "box": [
+        1650,
+        529,
+        53,
+        53
+      ],
+      "origin": "external",
+      "asset_id": "memo",
+      "sha256": "56009f7f85d521bef02dcd85025e6d520ee17ad505c509537a381e65653d570e"
+    },
+    {
+      "id": "kernel-linear-title",
+      "role": "text",
+      "box": [
+        1714,
+        527,
+        389,
+        27
+      ]
+    },
+    {
+      "id": "kernel-linear-example",
+      "role": "text",
+      "box": [
+        1714,
+        556,
+        389,
+        27
+      ]
+    },
+    {
+      "id": "goal-control",
+      "role": "container",
+      "box": [
+        1134,
+        612,
+        996,
+        110
+      ]
+    },
+    {
+      "id": "target-match-icon",
+      "role": "icon",
+      "box": [
+        1146,
+        632,
+        64,
+        64
+      ],
+      "origin": "external",
+      "asset_id": "search",
+      "sha256": "58131ba954c90a9b81ea6a4978a731e225235dd048628839b2221cfd34632788"
+    },
+    {
+      "id": "target-match-heading",
+      "role": "text",
+      "box": [
+        1223,
+        623,
+        276,
+        35
+      ]
+    },
+    {
+      "id": "target-match-value",
+      "role": "text",
+      "box": [
+        1223,
+        662,
+        276,
+        39
+      ]
+    },
+    {
+      "id": "goal-control-sep1",
+      "role": "relation",
+      "points": [
+        [
+          1512,
+          625
+        ],
+        [
+          1512,
+          708
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "solution-check-icon",
+      "role": "icon",
+      "box": [
+        1525,
+        633,
+        62,
+        62
+      ],
+      "origin": "external",
+      "asset_id": "check",
+      "sha256": "8799b1d1d05928551d072e5b1c643ef02b40049b44098aa598671caf725f3d8e"
+    },
+    {
+      "id": "solution-heading",
+      "role": "text",
+      "box": [
+        1598,
+        623,
+        251,
+        35
+      ]
+    },
+    {
+      "id": "solution-literal",
+      "role": "container",
+      "box": [
+        1598,
+        665,
+        242,
+        40
+      ]
+    },
+    {
+      "id": "solution-literal-text",
+      "role": "text",
+      "box": [
+        1603,
+        666,
+        232,
+        38
+      ]
+    },
+    {
+      "id": "goal-control-sep2",
+      "role": "relation",
+      "points": [
+        [
+          1860,
+          625
+        ],
+        [
+          1860,
+          708
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "repeat-expansion-icon",
+      "role": "icon",
+      "box": [
+        1873,
+        634,
+        60,
+        60
+      ],
+      "origin": "external",
+      "asset_id": "repeat",
+      "sha256": "a08f7ab97b23f88b880210716a063f2aff8367d0853dda6133c967b6a83d20a7"
+    },
+    {
+      "id": "repeat-question",
+      "role": "text",
+      "box": [
+        1944,
+        623,
+        169,
+        35
+      ]
+    },
+    {
+      "id": "repeat-action",
+      "role": "text",
+      "box": [
+        1944,
+        655,
+        169,
+        32
+      ]
+    },
+    {
+      "id": "repeat-bound",
+      "role": "text",
+      "box": [
+        1944,
+        687,
+        169,
+        25
+      ]
+    },
+    {
+      "id": "traceback",
+      "role": "container",
+      "box": [
+        1134,
+        843,
+        367,
+        304
+      ]
+    },
+    {
+      "id": "traceback-search",
+      "role": "icon",
+      "box": [
+        1146,
+        850,
+        37,
+        37
+      ],
+      "origin": "external",
+      "asset_id": "search",
+      "sha256": "58131ba954c90a9b81ea6a4978a731e225235dd048628839b2221cfd34632788"
+    },
+    {
+      "id": "traceback-heading",
+      "role": "text",
+      "box": [
+        1195,
+        847,
+        294,
+        40
+      ]
+    },
+    {
+      "id": "proof-start",
+      "role": "container",
+      "box": [
+        1150,
+        899,
+        335,
+        40
+      ]
+    },
+    {
+      "id": "proof-start-text",
+      "role": "text",
+      "box": [
+        1155,
+        900,
+        325,
+        38
+      ]
+    },
+    {
+      "id": "proof-midpoint-edge",
+      "role": "flow",
+      "points": [
+        [
+          1226,
+          940
+        ],
+        [
+          1226,
+          955
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "proof-angle-edge",
+      "role": "relation",
+      "points": [
+        [
+          1395,
+          940
+        ],
+        [
+          1395,
+          955
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "proof-midpoint",
+      "role": "container",
+      "box": [
+        1150,
+        957,
+        150,
+        40
+      ]
+    },
+    {
+      "id": "proof-midpoint-text",
+      "role": "text",
+      "box": [
+        1155,
+        958,
+        140,
+        38
+      ]
+    },
+    {
+      "id": "unused-angle",
+      "role": "container",
+      "box": [
+        1317,
+        957,
+        168,
+        40
+      ]
+    },
+    {
+      "id": "unused-angle-text",
+      "role": "text",
+      "box": [
+        1322,
+        958,
+        158,
+        38
+      ]
+    },
+    {
+      "id": "proof-height-edge",
+      "role": "flow",
+      "points": [
+        [
+          1225,
+          998
+        ],
+        [
+          1225,
+          1015
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "unused-area-edge",
+      "role": "relation",
+      "points": [
+        [
+          1301,
+          977
+        ],
+        [
+          1308,
+          977
+        ],
+        [
+          1308,
+          1035
+        ],
+        [
+          1316,
+          1035
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "proof-height",
+      "role": "container",
+      "box": [
+        1150,
+        1017,
+        150,
+        40
+      ]
+    },
+    {
+      "id": "proof-height-text",
+      "role": "text",
+      "box": [
+        1155,
+        1018,
+        140,
+        38
+      ]
+    },
+    {
+      "id": "height-to-unused-area",
+      "role": "relation",
+      "points": [
+        [
+          1301,
+          1037
+        ],
+        [
+          1316,
+          1037
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "unused-area",
+      "role": "container",
+      "box": [
+        1317,
+        1017,
+        168,
+        40
+      ]
+    },
+    {
+      "id": "unused-area-text",
+      "role": "text",
+      "box": [
+        1322,
+        1018,
+        158,
+        38
+      ]
+    },
+    {
+      "id": "proof-goal-edge",
+      "role": "flow",
+      "points": [
+        [
+          1225,
+          1058
+        ],
+        [
+          1225,
+          1080
+        ]
+      ],
+      "source": null,
+      "target": null
+    },
+    {
+      "id": "minimal-proof-check",
+      "role": "icon",
+      "box": [
+        1150,
+        1085,
+        47,
+        47
+      ],
+      "origin": "external",
+      "asset_id": "check",
+      "sha256": "8799b1d1d05928551d072e5b1c643ef02b40049b44098aa598671caf725f3d8e"
+    },
+    {
+      "id": "minimal-target",
+      "role": "container",
+      "box": [
+        1203,
+        1081,
+        282,
+        53
+      ]
+    },
+    {
+      "id": "minimal-target-text",
+      "role": "text",
+      "box": [
+        1208,
+        1082,
+        272,
+        51
+      ]
+    },
+    {
+      "id": "stepwise",
+      "role": "container",
+      "box": [
+        1515,
+        843,
+        615,
+        304
+      ]
+    },
+    {
+      "id": "proof-document",
+      "role": "icon",
+      "box": [
+        1525,
+        848,
+        42,
+        42
+      ],
+      "origin": "external",
+      "asset_id": "memo",
+      "sha256": "56009f7f85d521bef02dcd85025e6d520ee17ad505c509537a381e65653d570e"
+    },
+    {
+      "id": "stepwise-heading",
+      "role": "text",
+      "box": [
+        1575,
+        847,
+        540,
+        40
+      ]
+    },
+    {
+      "id": "proof-step-one",
+      "role": "container",
+      "box": [
+        1528,
+        896,
+        589,
+        55
+      ]
+    },
+    {
+      "id": "proof-step-one-icon",
+      "role": "icon",
+      "box": [
+        1537,
+        900,
+        46,
+        46
+      ],
+      "origin": "external",
+      "asset_id": "theorems",
+      "sha256": "759da9ada832cf77b2f4d5e9e6cbc443ecf0d9c1a8420570ea7b58ef2b33cf10"
+    },
+    {
+      "id": "proof-step-one-rule",
+      "role": "text",
+      "box": [
+        1588,
+        897,
+        518,
+        26
+      ]
+    },
+    {
+      "id": "proof-step-one-payload",
+      "role": "text",
+      "box": [
+        1588,
+        924,
+        518,
+        26
+      ]
+    },
+    {
+      "id": "proof-step-two",
+      "role": "container",
+      "box": [
+        1528,
+        956,
+        589,
+        55
+      ]
+    },
+    {
+      "id": "proof-step-two-icon",
+      "role": "icon",
+      "box": [
+        1537,
+        960,
+        46,
+        46
+      ],
+      "origin": "external",
+      "asset_id": "ruler",
+      "sha256": "359e1ab303bae542373a79481eacfa3da9aee6e3d74ec655c8032a4765c4b2e8"
+    },
+    {
+      "id": "proof-step-two-rule",
+      "role": "text",
+      "box": [
+        1588,
+        957,
+        518,
+        26
+      ]
+    },
+    {
+      "id": "proof-step-two-payload",
+      "role": "text",
+      "box": [
+        1588,
+        984,
+        518,
+        26
+      ]
+    },
+    {
+      "id": "proof-step-three",
+      "role": "container",
+      "box": [
+        1528,
+        1016,
+        589,
+        55
+      ]
+    },
+    {
+      "id": "proof-step-three-icon",
+      "role": "icon",
+      "box": [
+        1537,
+        1020,
+        46,
+        46
+      ],
+      "origin": "external",
+      "asset_id": "calculator",
+      "sha256": "134922eca407db7f338602a7e402d31ea3bbc7ac0b4a654f950f05a24e6403ae"
+    },
+    {
+      "id": "proof-step-three-rule",
+      "role": "text",
+      "box": [
+        1588,
+        1017,
+        518,
+        26
+      ]
+    },
+    {
+      "id": "proof-step-three-payload",
+      "role": "text",
+      "box": [
+        1588,
+        1044,
+        518,
+        26
+      ]
+    },
+    {
+      "id": "proof-step-four",
+      "role": "container",
+      "box": [
+        1528,
+        1076,
+        589,
+        55
+      ]
+    },
+    {
+      "id": "proof-step-four-icon",
+      "role": "icon",
+      "box": [
+        1537,
+        1080,
+        46,
+        46
+      ],
+      "origin": "external",
+      "asset_id": "check",
+      "sha256": "8799b1d1d05928551d072e5b1c643ef02b40049b44098aa598671caf725f3d8e"
+    },
+    {
+      "id": "proof-step-four-rule",
+      "role": "text",
+      "box": [
+        1588,
+        1077,
+        518,
+        26
+      ]
+    },
+    {
+      "id": "proof-step-four-payload",
+      "role": "text",
+      "box": [
+        1588,
+        1104,
+        518,
+        26
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "illustrative": true,
+  "minecraft_execution": false,
+  "llm_execution": false,
+  "success": true,
+  "initial_planks": 6,
+  "initial_logs": 1,
+  "missing_planks": 2,
+  "recipe_batches": 1,
+  "planks_after_conversion": 10,
+  "final_planks": 2,
+  "final_logs": 0,
+  "final_chests": 1
+}

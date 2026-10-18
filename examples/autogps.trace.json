@@ -1,0 +1,16 @@
+{
+  "public_paper": "https://arxiv.org/abs/2505.23381",
+  "source_instance": "Figure 3: isosceles triangle with sides 13, 13, 10",
+  "illustrative": true,
+  "autogps_execution": false,
+  "base": 10,
+  "equal_sides": 13,
+  "half_base": 5,
+  "height": 12,
+  "area": 60,
+  "checks": {
+    "pythagoras": true,
+    "area": true
+  },
+  "compression": "Geometric and algebraic dependencies are grouped for explanation; not a literal execution trace."
+}
